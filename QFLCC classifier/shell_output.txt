@@ -70,12 +70,12 @@
 69- Checkpoint logged on 2024-07-08 01:25:45 for file # 69 as __snd__
 70- Checkpoint logged on 2024-07-08 01:25:45 for file # 40 as QI_Exp_03.csv parallel to simulation run file { QDF-LCode_IBMQ-2024-codable },  Simulation State ///--[' QDF CIRCUIT SIMULATION BEGINS ']--///
 71- Checkpoint logged on 2024-07-08 01:25:45 for file # 40 as QI_Exp_03.csv parallel to simulation run file { QDF-LCode_IBMQ-2024-codable },  Simulation State ///--[' QDF CIRCUIT SIMULATION_DATASET_ANALYSIS PROMPT ']--///
-72- Checkpoint logged on 2024-07-08 01:25:45 for file # 40 as QI_Exp_03.csv parallel to simulation run file { QDF-LCode_IBMQ-2024-codable },  Simulation State ///--["ëp Data: ['Weak', '{ì , ü/?}', 'Avg.', 'Strong', '?'], QDF Qubit Sets: \x1b[92mStrong Match { 010101b , 0101 },  QDF Circuits: \x1b[32mStrong Match"]--///
+72- Checkpoint logged on 2024-07-08 01:25:45 for file # 40 as QI_Exp_03.csv parallel to simulation run file { QDF-LCode_IBMQ-2024-codable },  Simulation State ///--["Ã«p Data: ['Weak', '{Ã¬ , Ã¼/?}', 'Avg.', 'Strong', '?'], QDF Qubit Sets: \x1b[92mStrong Match { 010101b , 0101 },  QDF Circuits: \x1b[32mStrong Match"]--///
 73- Checkpoint logged on 2024-07-08 01:25:45 for file # 40 as QI_Exp_03.csv parallel to simulation run file { QDF-LCode_IBMQ-2024-codable },  Simulation State ///--[' QDF CIRCUITS SIMULATION_DATASET_ANALYSIS CONCLUDED ']--///
 74- Checkpoint logged on 2024-07-08 01:25:45 for the QFLCC Game: Alice and Bob's Quantum Doubles ver.1.0
 75- Checkpoint logged on 2024-07-08 01:25:45 for the QFLCC Game: Alice and Bob's Quantum Doubles ver.1.0
 76- Checkpoint logged on 2024-07-08 01:25:45 for the QFLCC Game: Alice and Bob's Quantum Doubles ver.1.0
-"7- ///--- Win Entry --- Ä=ðä(((?(? ?? ?)? [?] /// Level: 1 Scored: 10 at 2024-07-08 01:25:45"
+"7- ///--- Win Entry --- Ã„=Ã°Ã¤(((?(? ?? ?)? [?] /// Level: 1 Scored: 10 at 2024-07-08 01:25:45"
 77- Checkpoint logged on 2024-07-08 01:25:45 for the QFLCC Game: Alice and Bob's Quantum Doubles ver.1.0
-"8- ///--- Guesser Entry --- Ä=ðä(((??(?ÿ????ÿ)??[$_? | /// Level: 1 Scored: 13 at 2024-07-08 01:25:45"
+"8- ///--- Guesser Entry --- Ã„=Ã°Ã¤(((??(?Ã¿????Ã¿)??[$_? | /// Level: 1 Scored: 13 at 2024-07-08 01:25:45"
 0- Checkpoint logged on 2024-07-08 01:28:14 for all programs: ///-PROGRAM TERMINATED--///
