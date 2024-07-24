@@ -1,0 +1,18 @@
+[
+ {
+   "binary_string": "01011b",
+   "probability": 0.67578125
+ },
+ {
+   "binary_string": "10101b",
+   "probability": 0.10546875
+ },
+ {
+   "binary_string": "00101b",
+   "probability": 0.084960938
+ },
+ {
+   "binary_string": "11011b",
+   "probability": 0.133789063
+ }
+]

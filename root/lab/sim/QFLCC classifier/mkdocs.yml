@@ -1,0 +1,337 @@
+site_name: "<div id='title-text'>Documentation for <br/> <p style='line-height:130%'> 1. QFLCA Dataset: Quantum AI Lens Coding and  <p style='line-height:130%' style='text-indent: 25px'> Classification (QAI-LCode_QFLCC) Docs </p> <p style='line-height:130%'> 2. QDF Game: Alice & Bob's Quantum Doubles <br><br><p style='text-indent: -265px'> <span>⇝&blk34;<span style='background-color: black'><font color=red>⇝</font></span>&blk12;&blk14;&blk34;&boxH;&boxH;&boxH;&boxH;&boxH;&boxH;&boxH;&boxH;&boxH;&boxH;|0〉───┤<span style='background-color: black'> H </span>├───○───┤<span style='background-color: black'> X </span>├───○───┤<span style='background-color: orange'><font color=black><b> ⤤ </b></font></span>╞&boxH;&boxH;<mark style='background-color:black; border-radius:10px; border: 2px solid rgb(0, 255, 0)'><font color=rgb(0,0,0)>&boxH;&boxH;&blk34;&blk34;&blk34;&blk34;</font></mark>&blk34;<font color=black>&boxH;&blk34;&blk34;</font> </p></span></p></p> <script>  let N = 100; let random = Math.random() * 10; </script>  </div>" 
+
+# ⇜ css Code	\21DC ↭ css Code is	\21AD 
+# mkdocs.yml
+# docs_dir: '.'
+#site_dir: ../site
+
+theme: 
+  #name: readthedocs
+  #name: material 
+  #name: bootstrap
+  #name: amelia
+  #name: bootstrap4
+  #name: alabaster
+  #name: rtd
+  #name: dracula  # not a bad fit at all
+  #name: kpn
+  #name: dsfr
+  ###########################
+  # most of the following come from mkdocs-bootswatch
+  ###########################
+  #name: nature   # a good one on many available features
+  #name: bulma
+  #name: cyborg-classic  # not bad as well
+  #name: rebalance
+  #name: amelia
+  #name: cosmo
+  #name: cosmo-classic
+  #name: tech_docs_template
+  #name: tamerdocs
+  #name: manuals-theme
+  #name: conia
+  #name: moonstone
+  #name: pathfinder
+  #name: walt
+  #name: windmill
+  #name: windmill-dark
+  #name: bootstrap386   # great fir for retro styles
+  #name: terminal
+  #name: custommill
+  #name: ivory
+  #name: slate
+  #name: cyborg
+  #name: lux  # a fair agood fit
+  #name: united # a fair good fit
+  name: darkly  
+  #name: lux #not a bad fit
+  #name: solar 
+  #name: minty
+  #name: cu-ab6459  # nice work but does not list variables/functions/classes in nav bar
+  #name: spacelab # a good fit as well
+  #name: pulse # not bad
+  #name: simplex-classic
+  #name: superhero # somewhat good for gaming themes
+  #name: litera
+  #name: swan
+  #name: yeti
+  #name: brudi 
+  #name: ansible 
+  #custom_dir: docs/overrides
+  features:
+    - navigation.expand
+    - header.autohide
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+  height: auto
+  language: en                                    # The build's language
+  #width: auto
+  logo: QDF-logo.png #logo for the theme
+  highlightjs: true
+  analytics:
+    gtag: G-ABC123
+  shortcuts:
+    help: 72    # h
+    next: 78     # n
+    previous: 80 # p
+    search: 191   # ?  
+  #navigation_depth: 4
+  palette: # <- this is the culprit, commenting it out fixes the issue, but we use it for dark/bright mode configuration
+  # Light mode palette
+  >
+    - media: "(prefers-color-scheme: light)"
+      scheme: darkly
+      primary: amber
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Dark mode palette
+    - media: "(prefers-color-scheme: dark)"
+      scheme: darkly
+      primary: amber
+      accent: deep orange
+      toggle:
+        icon: material/brightness-5
+        name: Switch to light mode
+  icon:
+    admonition:
+      #<type>: <icon>
+      #note: octicons/alert-24
+    logo: material/cloud
+  accent: red
+  primary: stylesheets/extra.css #indigo
+
+   #additional options: #optional to include later based on experience
+
+project: 'QFLCA:'
+copyright: 'Copyright © 2024, Philip Baback Alipour'
+site_author: 'Philip Baback Alipour'
+
+extra_css:
+  - stylesheets/rgb.css    # for user select/customized rgb settings of body colors, etc. 
+  # - assets/stylesheets/yesplan.css                  # CSS is shared by all languages
+  - https://unpkg.com/mermaid@7.1.2/dist/mermaid.css
+  - stylesheets/extra.css
+  - assets/css/my_cover_page.css
+  
+extra_javascript:
+  - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
+  - javascripts/extra.js
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  version: "v 0.1.0"
+  abstract: "<br> This is a report about a topic"
+  annotate:
+    json: [.s2]
+  
+  alternate:
+    # Switch to English
+    - name: English
+      link: <your-site>/en/
+      lang: en
+
+    # Switch to German
+    - name: Deutsch
+      link: <your-site>/de/
+      lang: de
+
+    # Switch to Japanese
+    - name: 日本語
+      link: <your-site>/ja/
+      lang: ja
+
+    # Switch to Spanish
+    - name: Spanish
+      link: <your-site>/es/
+      lang: es
+    
+    # Switch to Persian
+    - name: Persian
+      link: <your-site>/fa/
+      lang: fa
+
+    # Switch to French
+    - name: French
+      link: <your-site>/fr/
+      lang: fr
+
+    # Switch to Indonesian
+    - name: Indonesian
+      link: <your-site>/id/
+      lang: id
+
+    # Switch to Italian
+    - name: Italian
+      link: <your-site>/it/
+      lang: it
+
+      # Switch to Portuguese 
+    - name: Portuguese (Brazil)
+      link: <your-site>/pt_BR/
+      lang: pt_BR
+
+      # Switch to Russian
+    - name: Russian
+      link: <your-site>/ru/
+      lang: ru
+
+      # Switch to Turkish
+    - name: Turkish
+      link: <your-site>/tr/
+      lang: tr
+
+       # Switch to Ukrainian
+    - name: Ukrainian
+      link: /uk/
+      lang: uk
+
+       # Switch to Chinese
+    - name: Chinese
+      link: /zh_CN/
+      lang: zh_CN
+
+format:
+  html:
+    code-line-numbers: true
+    code-overflow: wrap
+include-in-header:
+  - text: |
+      <style type="text/css">
+      pre.numberSource {
+        margin: 0
+      }
+      pre.numberSource code > span {
+        left: 0;
+      }
+
+site_url: ""
+use_directory_urls: False
+
+relativePaths: True  # Needed to see for relative path contents locally.
+
+markdown_extensions:
+  - pymdownx.snippets
+  - pymdownx.tabbed
+  - admonition
+  - pymdownx.details
+  - sane_lists
+  - attr_list
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+          #format: !!python/name:mermaid2.fence_mermaid_custom
+          #format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.snippets:
+      base_path: !relative $docs_dir  # disable this if relative path is not needed
+  - mkdocs-click
+  - tables
+  - footnotes
+  #- pymdownx.highlight:
+      #anchor_linenums: true
+  #    line_spans: __span
+  #    pygments_lang_class: true
+  - markdown_captions
+  - pymdownx.emoji:   # support emojis
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - codehilite:
+      guess_lang: False  # for code block highlights and guessing the code language
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  # support pad width = 2, as formatted with prettier
+  #- mdx_truly_sane_lists
+  # Allow to use collapsible call-outs
+  # https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+
+#edit_uri: ../docs/
+
+plugins:
+  - search
+  - caption
+  - pagetree
+  - open-in-new-tab
+  - site-urls
+   # - mkdocs-jupyter    # Install using pip install mkdocs-jupyter, also pip install jupytext
+   #  execute: true
+   #  allow_errors: false
+   #  kernel_name: python
+   #  include_source: True
+   #  theme: dark
+  - mkdocstrings:  # This might require a fix typing "pip install 'mkdocstrings[crystal,python]' "
+     default_handler: python
+     handlers:
+       python:
+         options:
+           show_source: true
+  - mkdocs-version-annotations
+  - mkdocs-video
+  - toggle-sidebar
+  - diagrams
+  - search
+  - open-in-new-tab   # This plugin opens all outgoing links in a new tab.
+  - mermaid2:
+      #javascript: https://unpkg.com/mermaid@10.4.0/dist/mermaid.esm.min.mjs  # use this for the material theme
+  #- offline  only works for material theme if you are not n insider (sponsor). Instead use "use_directory_urls: False".
+ #    enabled: !ENV [OFFLINE, false]
+#  - same-dir  # This changes the parent to current
+      version: '10.0.2' # only works with version < 10  #these lines are for other themes compared to the material theme
+      arguments:
+          theme: 'dark' # The base theme is good for customization, but forest, dark or other themes are available as other standards
+          themeVariables:
+            primaryColor: '#BB2528'
+            primaryTextColor: '#fff'
+            primaryBorderColor: '#7C0000'
+            lineColor: '#F8B229'
+            secondaryColor: '#006100'
+            tertiaryColor: '#fff'
+  - print-site: 
+      add_to_navigation: true 
+      print_page_title: '<style> code { white-space : pre-wrap !important; word-break: break-word;} a.nav-link:hover, a.nav-link:hover::after, a.nav-link:hover::before {color: #FFEB3B !important;} </style>  🖶 Print Site'  # An alternative to include the extra.css file that might only work and force the style in part, a line here with a css command can be added to override color or any other style forcefully to the entire site. Concatenation of the title string when hovered over text is als achieved. This line can bee added anywhere when a string or textual property is presented in this file. example within <stye> .site-description {font-size: 16px; text-transform: uppercase; letter-spacing: 2px; } </style>  
+      add_print_site_banner: true
+      print_site_banner_template: "docs/assets/templates/custom_banner.tpl"
+      # Table of contents
+      add_table_of_contents: true
+      toc_title: 'Table of Contents'
+      toc_depth: 6
+      # Content-related
+      add_full_urls: false
+      enumerate_headings: true
+      enumerate_figures: true
+      add_cover_page: true
+      cover_page_template: "docs/assets/templates/custom_cover_page.tpl"
+      path_to_pdf: "docs/assets/the_name_of_your_file.pdf"
+      include_css: true
+      enabled: true
+      exclude:       # Default is empty. Add a an .md page or pages to exclude from printing. 
+
+nav:
+    - '<mark style="background-color: black"><font color="#00FF00" class="kappa-phi">|&#x3BA;&#x3A6|</font></mark><font class="qflca-home"> Home </font>': 
+       - '<font color=#add8e6 class="qflca-docs">&#x21B5; Welcome &#127204;</font>': 'index.md' # similar enter character &#x23CE;
+       - '<font color=#add8e6 class="qflca-about">&#x1F6C8; About </font>': 'about.md'
+       - '<font color=#add8e6 class="qflca-about">␅ Contact Us 📱</font>': 'about.html#contact-us'
+       - '<font color=#add8e6 class="qflca-abstract">␛ Abstract ␃ </font>': "abstract.md"
+    - ' <u>&#x25BD;</u> Installation': 'installation.md'
+    - '&#x25B7;| Code & Demo':   #keyboard is &#9000 
+        - '<font color=#add8e6 class="qflca-flow"> Σ QFLCA Workflow ○──┤🗠</font>': 'QAI-LCode_QFLCC-reference.md'
+        - '<font color=#add8e6 class="qdf-game"> &#x2660; QDF Game ─Σ☝(&#x2070;&#185; ͜ʖ͠ &#185;&#x2070;)👇 </font>': 'QDF-game-reference.md' # 💪(◐ ͜ʖ͠◐)👉[$̲̅ | &#9824 &#9827 &#9818 &#9819 &#9199 🗣
+        - '<font color=#add8e6 class="qflca-src"> 🗐 Research Resources  &#x1F517 </font>': 'research-sources.md' #🗊
+    - '<div class:"dlswitch"> &#9788;&#9789 Theme Mode </div>': 'theme-switch.md' # 9788 &#9728 Default is dark mode... Alternate for bright-dark circles mode is &#9899 &#9898 
