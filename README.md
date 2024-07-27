@@ -4,9 +4,9 @@ a. A particle pair’s energy state in a QDF (different GS states or sublevels o
 b. a particle state in an SF, an ES relative to a GS from (a.) prior to a field transformation, and, 
 c. the expected transformation of fields (ES ←→GS) and ⟨M(P, ψ_ij)⟩, as in Sec. 3 of the published article.
 
-The file structure here is a sample mirror of  the Mendeley repository file structure of v3+ at https://data.mendeley.com/datasets/gf2s8jkdjf/3, but with a much smaller file size for efficient download and use of the QFLCA project's code without the documentation (website) and demo vedo files. Certain small updates have been made in the main python file uploaded on Code Ocean for minor debugging purposes at https://doi.org/10.24433/CO.9905505.v1. 
+The file structure here is a sample mirror of the Mendeley repository file structure of v3+ at https://data.mendeley.com/datasets/gf2s8jkdjf/3, but with a much smaller file size for efficient download and use of the QFLCA project's code without the documentation (website) and demo vedo files. Certain small updates have been made in the main python file uploaded on Code Ocean for minor debugging purposes at https://doi.org/10.24433/CO.9905505.v1. 
 
-* QFLCA project's code without the documentation (website) and demo vedo files can be found under the <QFLCC clasifier> directory in docs and site folders at https://doi.org/10.24433/CO.9905505.v1. 
+* QFLCA project's code without the documentation (website) and demo vedo files can be found under the </code/root/lab/sim/QFLCC classifiers> directory in </code/root/lab/sim/QFLCC classifiers/docs> and </code/root/lab/sim/QFLCC classifiers/site> folders at https://doi.org/10.24433/CO.9905505.v1. 
 
 * The main file is </code/root/lab/sim/QFLCC classifiers/QAI-LCode_QFLCC.py> which imports and executes the </code/root/lab/sim/QFLCC classifiers/QDF-LCode_IBMQ-2024-codable.py> or QDF-LCode_IBMQ-2024.py code for the simulation under Win OS or Linux OS. 
 
