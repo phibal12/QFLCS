@@ -16,6 +16,8 @@ The file structure here is a sample mirror of the Mendeley repository file struc
 * We recommend downloading the entire <root> directory according to the folder structure and run QAI-LCode_QFLCC.py   in VSC with python latest packages installed for windows OS (the QDF game is developed for Windows OS, yet parts of the code for sound and display can be rewritten for Linux OS), e.g. "winsound" package as a compatible option. 
 Other packages are needed to be installed or code rewritten for "sound" and "display" compatibility under other operating systems. 
 
+
+<video src='game-intro.mp4' width=180/> 
 * The QAI-LCode_QFLCC.py file has a Pygame GUI and other packages suited for local machine runs, rather than running this file on the Code Ocean platform which could take hours to compile and run a compatible program/game with packages. 
 However, the  QDF-LCode_IBMQ-2024-codable.py can be run here as the core of the simulation program simulating the QDF circuit. 
 A short presentation explaining these points are given in the </site/assets/video> directory as the "QAI-COcean-Demo.mp4" file.
