@@ -1,3 +1,5 @@
+https://github.com/user-attachments/assets/cfeb7e57-33e5-4834-ae4c-ceead03b8344
+
 ![QDF_Circuit_and Dataset Analysis](QDF_circuit_screenshot.jpg)
 ![QDF Game Scores Screenshot](QDF_game_screenshot.jpg)
 
@@ -17,8 +19,6 @@ The file structure here is a sample mirror of the Mendeley repository file struc
 Other packages are needed to be installed or code rewritten for "sound" and "display" compatibility under other operating systems. 
 
 https://github.com/user-attachments/assets/dc2632f5-c35a-484e-8149-7b72ae571fa2
-
-<video loop src="game_intro.mp4.mp4">  video </video> 
   
 * The QAI-LCode_QFLCC.py file has a Pygame GUI and other packages suited for local machine runs, rather than running this file on the Code Ocean platform which could take hours to compile and run a compatible program/game with packages. 
 However, the  QDF-LCode_IBMQ-2024-codable.py can be run here as the core of the simulation program simulating the QDF circuit. 
