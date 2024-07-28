@@ -1,7 +1,6 @@
 
 ![1D-circuit-01](https://github.com/user-attachments/assets/df63a875-46fa-42fc-a498-6e780666718e)
-
-https://github.com/user-attachments/assets/cfeb7e57-33e5-4834-ae4c-ceead03b8344
+![1D-circuit-01](https://github.com/user-attachments/assets/df63a875-46fa-42fc-a498-6e780666718e)
 
 ![QDF_Circuit_and Dataset Analysis](QDF_circuit_screenshot.jpg)
 ![QDF Game Scores Screenshot](QDF_game_screenshot.jpg)
