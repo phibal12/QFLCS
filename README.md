@@ -1,12 +1,3 @@
-<pre>
-  border-radius: 6px
-  text-shadow: 0 1px #14161800 !important
-  background: #242424 !important
-  span.token.operator
-    background: none
-  span.token.keyword
-    color: #866cba
-</pre>
 
 ![1D-circuit-01](https://github.com/user-attachments/assets/df63a875-46fa-42fc-a498-6e780666718e)
 ![1D-circuit-01](https://github.com/user-attachments/assets/df63a875-46fa-42fc-a498-6e780666718e)
