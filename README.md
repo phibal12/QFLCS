@@ -1,4 +1,4 @@
-# The QFLCS: Quantum Field Lens Coding Simulator  
+# QFLCS: Quantum Field Lens Coding Simulator  
 
 <kbd> ![1D-circuit-01](https://github.com/user-attachments/assets/df63a875-46fa-42fc-a498-6e780666718e) </kbd>
 
