@@ -1,5 +1,5 @@
 
-![1D-circuit-01](https://github.com/user-attachments/assets/df63a875-46fa-42fc-a498-6e780666718e)
+<kbd> ![1D-circuit-01](https://github.com/user-attachments/assets/df63a875-46fa-42fc-a498-6e780666718e) </kbd>
 ![1D-circuit-01](https://github.com/user-attachments/assets/df63a875-46fa-42fc-a498-6e780666718e)
 
 ![QDF_Circuit_and Dataset Analysis](QDF_circuit_screenshot.jpg)
@@ -18,8 +18,6 @@ The file structure here is a sample mirror of the Mendeley repository file struc
 
 * We recommend downloading the entire <root> directory according to the folder structure and run QAI-LCode_QFLCC.py   in VSC with python latest packages installed for windows OS (the QDF game is developed for Windows OS, yet parts of the code for sound and display can be rewritten for Linux OS), e.g. "winsound" package as a compatible option. 
 Other packages are needed to be installed or code rewritten for "sound" and "display" compatibility under other operating systems. 
-
-![animated-intro](https://github.com/user-attachments/assets/a6e1eece-0292-441b-a752-928f56f19928)
 
 <kbd> <img src="https://github.com/user-attachments/assets/a6e1eece-0292-441b-a752-928f56f19928" style="border: 2px solid green" /> </kbd>
  
