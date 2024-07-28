@@ -18,7 +18,7 @@ Other packages are needed to be installed or code rewritten for "sound" and "dis
 
 https://github.com/user-attachments/assets/dc2632f5-c35a-484e-8149-7b72ae571fa2
 
-![](game-intro.mp4){loop="true"}
+![](medias/game-intro.mp4){loop="true"}
   
 * The QAI-LCode_QFLCC.py file has a Pygame GUI and other packages suited for local machine runs, rather than running this file on the Code Ocean platform which could take hours to compile and run a compatible program/game with packages. 
 However, the  QDF-LCode_IBMQ-2024-codable.py can be run here as the core of the simulation program simulating the QDF circuit. 
