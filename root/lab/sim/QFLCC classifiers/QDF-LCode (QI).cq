@@ -1,0 +1,81 @@
+Version 1.0
+#-----------------------------------------------------------------------------
+# A quantum field lens coding algorithm by a conventional quantum circuit
+# written in cQSAM by P. B. Alipour, run on Quantum Computers in QI, 2020-2023
+#------------------------------------------------------------------------------
+qubits 6 # Initialize a 6-qubit register (define the number of qubits)
+.init
+prep_z q[0:5] # State initialization on 6 qubits in the z-basis in the |0>
+# state; Initialize inputs to some values
+#------------------------------------------------------------------------------
+# Qubit definitions for constructing an adder:
+# q[0] --> |A>
+# q[1] --> |B>
+# q[2] --> CarryIn_SumOut
+# q[3] --> CarryOut
+#-----------------------------------------------------------------------------
+# Initialize inputs A=1, B=0 and CarryIn =1 to perform addition after
+# decoding Alice’s message about the prize position
+{X q[0] | X q[2]}
+
+#-----------------------------------------------------------------------------
+# Define the combined .superposition and .entanglement sub-circuit as
+# .superpose_entangle for superdense coding
+#-----------------------------------------------------------------------------
+.superpose_entangle(2) # Iterate up to i=2 times (third party encodes qubits);
+# any i>2 times for any other scenario
+
+H q[1] # Create a superposition of two states
+
+cnot q[1], q[2] # Entangle two qubits via CNOT gate
+
+CR q[1], q[4], 0.39 # Controlled phase shift (or T-gate equivalent)
+# gate between qubits 1 and 4 with an angle of 0.39 radians = pi/8 degrees
+H q[4]
+
+.sender_encode_bits(1) # From superdense coding scheme , Alice sends two
+# classical bits as one qubit to receiver
+Z q[1]
+{Rz q[4], -0.32 | Rz q[5], -1.23}
+# (Rz q[5] is the controlled rotation on ancilla qubit 0, mapping to ((pi^2)/8
+# + (pi^2)/30) rad or =< pi/2 degrees; The system is evolved to its excited states
+# when the measurement on the ancilla qubit is in state |0>. Meanwhile , the system
+# is purified to a state that is close to its ground state (steps of decompression
+# discussed in the EE measurement section) as measurement takes place to observe
+# its excited state |1>.
+
+CR q[4], q[5], 0.39
+X q[1]
+# .middle_recorder(1) or Eve gathers information form Alice with increased certainty
+# and sends info to Bob (see the QDF game model steps)
+
+.receiver_decode_bits(1) # Bob as receiver
+# decodes bits within two consecutive steps of the game; below Eve collects information
+# from Alice relative to Bob as .middle_recorder(1) which defines a single step of
+# kappa -based QDF transformation = a momentum (kinetic energy) operator.
+H q[4]
+CR q[1], q[4], 0.39
+cnot q[1], q[2]
+H q[1]
+SWAP q[1], q[4] # SWAP gate on qubits 0 and 1 after the quantum field (QDF) transformation
+
+measure_z q[1:2]
+
+# Perform addition
+.full_adder(1)
+toffoli q[0],q[1],q[3]
+cnot q[0],q[1]
+toffoli q[1],q[2],q[3]
+cnot q[1],q[2]
+cnot q[0],q[1]
+
+measure_z q[2, 4, 5]
+# Measure the sum output from qubit 2 and the controlled rotation as momentum (kinetic
+# energy) operator.
+#-------------------------------------------------------------------------------------
+# Listing 1. Quantum circuit code for the corresponding figure exported from QI 
+# platform written in QI at: https://www.quantum-inspire.com/, ran on a 26-qubit QX 
+# single-node simulator. By removing the relevant circuit components from this code, 
+# the superdense coding circuit for Fig. 4(a) can be reproduced to run on a 5-qubit
+# processor, which is implemented between lines No. 5–7, 28–30, 37–49, 58–60.
+#-------------------------------------------------------------------------------------

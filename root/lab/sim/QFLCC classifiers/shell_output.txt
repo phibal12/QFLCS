@@ -1,0 +1,81 @@
+///--- QFLCC Shell Log_file START ---///
+1- Checkpoint logged on 2024-07-08 01:25:45 for file # 1 as .vscode
+2- Checkpoint logged on 2024-07-08 01:25:45 for file # 2 as docs
+3- Checkpoint logged on 2024-07-08 01:25:45 for file # 3 as game_legend.png
+4- Checkpoint logged on 2024-07-08 01:25:45 for file # 4 as game_model.png
+5- Checkpoint logged on 2024-07-08 01:25:45 for file # 5 as ibm-qdf-circuit_output.bin
+6- Checkpoint logged on 2024-07-08 01:25:45 for file # 6 as ibm-qdf-shell_output.bin
+7- Checkpoint logged on 2024-07-08 01:25:45 for file # 7 as ibm-qdf-shell_output.txt
+8- Checkpoint logged on 2024-07-08 01:25:45 for file # 8 as ibm-qdf-stats.txt
+9- Checkpoint logged on 2024-07-08 01:25:45 for file # 9 as IBMQ_CountsPlot_01.png
+10- Checkpoint logged on 2024-07-08 01:25:45 for file # 10 as intro-shell_output.txt
+11- Checkpoint logged on 2024-07-08 01:25:45 for file # 11 as mkdocs.yml
+12- Checkpoint logged on 2024-07-08 01:25:45 for file # 12 as pass-code.txt
+13- Checkpoint logged on 2024-07-08 01:25:45 for file # 13 as QAI-LCode_QFLCC-Copy.py
+14- Checkpoint logged on 2024-07-08 01:25:45 for file # 14 as QAI-LCode_QFLCC.py
+15- Checkpoint logged on 2024-07-08 01:25:45 for file # 15 as QDF-game-gui.py
+16- Checkpoint logged on 2024-07-08 01:25:45 for file # 16 as QDF-LCode (QI).cq
+17- Checkpoint logged on 2024-07-08 01:25:45 for file # 17 as QDF-LCode (QI).txt
+18- Checkpoint logged on 2024-07-08 01:25:45 for file # 18 as QDF-LCode_IBMQ-2024-codable.py
+19- Checkpoint logged on 2024-07-08 01:25:45 for file # 19 as QDF-LCode_IBMQ-2024-raw-codable.ipynb
+20- Checkpoint logged on 2024-07-08 01:25:45 for file # 20 as QDF-LCode_IBMQ-2024-raw.ipynb
+21- Checkpoint logged on 2024-07-08 01:25:45 for file # 21 as QDF-LCode_IBMQ-2024.ipynb
+22- Checkpoint logged on 2024-07-08 01:25:45 for file # 22 as QDF-LCode_IBMQ-2024.py
+23- Checkpoint logged on 2024-07-08 01:25:45 for file # 23 as QDF-LCode_IBMQ.ipynb
+24- Checkpoint logged on 2024-07-08 01:25:45 for file # 24 as QDF-LCode_IBMQ.png
+25- Checkpoint logged on 2024-07-08 01:25:45 for file # 25 as QDF-LCode_QI.cq
+26- Checkpoint logged on 2024-07-08 01:25:45 for file # 26 as QDF-LCode_QI.png
+27- Checkpoint logged on 2024-07-08 01:25:45 for file # 27 as QDFCircuit_2023.png
+28- Checkpoint logged on 2024-07-08 01:25:45 for file # 28 as QDF_ABC_Pseudocode.txt
+29- Checkpoint logged on 2024-07-08 01:25:45 for file # 29 as QI_Exp_01.csv
+30- Checkpoint logged on 2024-07-08 01:25:45 for file # 30 as QI_Exp_01.htm
+31- Checkpoint logged on 2024-07-08 01:25:45 for file # 31 as QI_Exp_01.json
+32- Checkpoint logged on 2024-07-08 01:25:45 for file # 32 as QI_Exp_01.png
+33- Checkpoint logged on 2024-07-08 01:25:45 for file # 33 as QI_Exp_01.tif
+34- Checkpoint logged on 2024-07-08 01:25:45 for file # 34 as QI_Exp_01_H.png
+35- Checkpoint logged on 2024-07-08 01:25:45 for file # 35 as QI_Exp_02.csv
+36- Checkpoint logged on 2024-07-08 01:25:45 for file # 36 as QI_Exp_02.htm
+37- Checkpoint logged on 2024-07-08 01:25:45 for file # 37 as QI_Exp_02.json
+38- Checkpoint logged on 2024-07-08 01:25:45 for file # 38 as QI_Exp_02.png
+39- Checkpoint logged on 2024-07-08 01:25:45 for file # 39 as QI_EXP_02_H.png
+40- Checkpoint logged on 2024-07-08 01:25:45 for file # 40 as QI_Exp_03.csv
+41- Checkpoint logged on 2024-07-08 01:25:45 for file # 41 as QI_Exp_03.htm
+42- Checkpoint logged on 2024-07-08 01:25:45 for file # 42 as QI_Exp_03.json
+43- Checkpoint logged on 2024-07-08 01:25:45 for file # 43 as QI_Exp_03.png
+44- Checkpoint logged on 2024-07-08 01:25:45 for file # 44 as QI_Exp_03_H.png
+45- Checkpoint logged on 2024-07-08 01:25:45 for file # 45 as QI_Exp_04.csv
+46- Checkpoint logged on 2024-07-08 01:25:45 for file # 46 as QI_Exp_04.htm
+47- Checkpoint logged on 2024-07-08 01:25:45 for file # 47 as QI_Exp_04.json
+48- Checkpoint logged on 2024-07-08 01:25:45 for file # 48 as QI_Exp_04.png
+49- Checkpoint logged on 2024-07-08 01:25:45 for file # 49 as QI_Exp_04_H.png
+50- Checkpoint logged on 2024-07-08 01:25:45 for file # 50 as QI_Exp_05.csv
+51- Checkpoint logged on 2024-07-08 01:25:45 for file # 51 as QI_Exp_05.htm
+52- Checkpoint logged on 2024-07-08 01:25:45 for file # 52 as QI_Exp_05.json
+53- Checkpoint logged on 2024-07-08 01:25:45 for file # 53 as QI_Exp_05.png
+54- Checkpoint logged on 2024-07-08 01:25:45 for file # 54 as QI_Exp_05_H.png
+55- Checkpoint logged on 2024-07-08 01:25:45 for file # 55 as QI_Exp_06.csv
+56- Checkpoint logged on 2024-07-08 01:25:45 for file # 56 as QI_Exp_06.htm
+57- Checkpoint logged on 2024-07-08 01:25:45 for file # 57 as QI_Exp_06.json
+58- Checkpoint logged on 2024-07-08 01:25:45 for file # 58 as QI_Exp_06.png
+59- Checkpoint logged on 2024-07-08 01:25:45 for file # 59 as QI_Exp_06_classic.png
+60- Checkpoint logged on 2024-07-08 01:25:45 for file # 60 as raw_data.csv
+61- Checkpoint logged on 2024-07-08 01:25:45 for file # 61 as ReadMe_QDF-LCode.txt
+62- Checkpoint logged on 2024-07-08 01:25:45 for file # 62 as shell_output.txt
+63- Checkpoint logged on 2024-07-08 01:25:45 for file # 63 as site
+64- Checkpoint logged on 2024-07-08 01:25:45 for file # 64 as site-prints
+65- Checkpoint logged on 2024-07-08 01:25:45 for file # 65 as Tips.txt
+66- Checkpoint logged on 2024-07-08 01:25:45 for file # 66 as VSCode Python Packages to Install.txt
+67- Checkpoint logged on 2024-07-08 01:25:45 for file # 67 as __img__
+68- Checkpoint logged on 2024-07-08 01:25:45 for file # 68 as __pycache__
+69- Checkpoint logged on 2024-07-08 01:25:45 for file # 69 as __snd__
+70- Checkpoint logged on 2024-07-08 01:25:45 for file # 40 as QI_Exp_03.csv parallel to simulation run file { QDF-LCode_IBMQ-2024-codable },  Simulation State ///--[' QDF CIRCUIT SIMULATION BEGINS ']--///
+71- Checkpoint logged on 2024-07-08 01:25:45 for file # 40 as QI_Exp_03.csv parallel to simulation run file { QDF-LCode_IBMQ-2024-codable },  Simulation State ///--[' QDF CIRCUIT SIMULATION_DATASET_ANALYSIS PROMPT ']--///
+72- Checkpoint logged on 2024-07-08 01:25:45 for file # 40 as QI_Exp_03.csv parallel to simulation run file { QDF-LCode_IBMQ-2024-codable },  Simulation State ///--["лp Data: ['Weak', '{м , ь/?}', 'Avg.', 'Strong', '?'], QDF Qubit Sets: \x1b[92mStrong Match { 010101b , 0101 },  QDF Circuits: \x1b[32mStrong Match"]--///
+73- Checkpoint logged on 2024-07-08 01:25:45 for file # 40 as QI_Exp_03.csv parallel to simulation run file { QDF-LCode_IBMQ-2024-codable },  Simulation State ///--[' QDF CIRCUITS SIMULATION_DATASET_ANALYSIS CONCLUDED ']--///
+74- Checkpoint logged on 2024-07-08 01:25:45 for the QFLCC Game: Alice and Bob's Quantum Doubles ver.1.0
+75- Checkpoint logged on 2024-07-08 01:25:45 for the QFLCC Game: Alice and Bob's Quantum Doubles ver.1.0
+76- Checkpoint logged on 2024-07-08 01:25:45 for the QFLCC Game: Alice and Bob's Quantum Doubles ver.1.0
+"7- ///--- Win Entry --- Д=рд(((?(? ?? ?)? [?] /// Level: 1 Scored: 10 at 2024-07-08 01:25:45"
+77- Checkpoint logged on 2024-07-08 01:25:45 for the QFLCC Game: Alice and Bob's Quantum Doubles ver.1.0
+"8- ///--- Guesser Entry --- Д=рд(((??(?я????я)??[$_? | /// Level: 1 Scored: 13 at 2024-07-08 01:25:45"
+0- Checkpoint logged on 2024-07-08 01:28:14 for all programs: ///-PROGRAM TERMINATED--///
