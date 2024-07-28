@@ -10,7 +10,7 @@ a. A particle pair’s energy state in a QDF (different GS states or sublevels o
 b. a particle state in an SF, an ES relative to a GS from (a.) prior to a field transformation, and, 
 c. the expected transformation of fields (ES ←→ GS) and ⟨M(P, ψ_ij)⟩, as in Sec. 3 of the published article.
 
-<kbd> ![k-trans-QDF-P-measure-IN](https://github.com/user-attachments/assets/713111d7-4a35-4658-89f9-eb4496ea0e90) </kbd>
+<kbd> ![k-trans-QDF-P-measure-IN](k-trans-QDF-P-measure-IN.png) </kbd>
 
 The file structure here is a sample mirror of the Mendeley repository file structure of v3+ at https://data.mendeley.com/datasets/gf2s8jkdjf/3, but with a much smaller file size for efficient download and use of the QFLCA project's code without the documentation (website) and demo vedo files. Certain small updates have been made in the main python file uploaded on Code Ocean for minor debugging purposes at https://doi.org/10.24433/CO.9905505.v1. 
 
