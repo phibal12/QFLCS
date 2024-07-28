@@ -28,4 +28,4 @@ A short presentation explaining these points are given in the </site/assets/vide
 
 * The User and Developer’s documentation/manual/demo is found under the </code/root/lab/sim/QFLCC classifiers> directory, as <site-prints> and <site> contents.
 
-* In each folder, </IBMQ>, </QAI>, </QFLCC classifiers> and </QI> under </code/root/lab/sim>, Tips.txt and/or ReadMe.txt files exist to explain the contents of that directory. Also, under </code/root/lab> directory, a ReadMe file exists explaining the manual computation and presentation parts of the project.
+* In each folder <QFLCC classifiers/IBMQ>, <.../sim/QAI>, </QFLCC classifiers> and </QI> under </code/root/lab/sim>, Tips.txt and/or ReadMe.txt files exist to explain the contents of that directory. Also, under </code/root/lab> directory, a ReadMe file exists explaining the manual computation and presentation parts of the project.
