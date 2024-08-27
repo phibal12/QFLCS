@@ -11,9 +11,9 @@ The QFLCS program analyzes the measurement outcome probability (P) data from dat
 
 a. A particle pair’s energy state in a QDF (different GS states or sublevels of a GS, or see Sec. 3 of the published article),
 
-b. a particle state in an SF, an ES relative to a GS from (a.) prior to a field transformation, and,
+b. a particle state in an SF, an ES relative to a GS from (a.) prior to its transform into a QDF, and,
 
-c. the expected transformation of fields (ES ←→ GS) and ⟨M(P, ψ_ij)⟩, as in Sec. 3 of the published article.
+c. the expected transformation of fields (ES ←→ GS) and their ⟨M(P, ψ_ij)⟩, as in Sec. 3 of the published article.
 
 <kbd> ![k-trans-QDF-P-measure-IN](k-trans-QDF-P-measure-IN.png) </kbd>
 
