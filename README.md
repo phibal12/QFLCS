@@ -35,7 +35,7 @@ A short presentation explaining these points are given in the <code> </site/asse
 
 * The User and Developer's documentation/manual/demo is found under the <code> </code/root/lab/sim/QFLCC classifiers> </code> directory, as <code> site-prints </code> and <code> site </code> contents.
 
-* In each folder <code> <QFLCC classifiers/IBMQ>, <.../sim/QAI>, </QFLCC classifiers> </code> and  QI under <code> </code/root/lab/sim> </code>, <code>Tips.txt</code> and/or <code>ReadMe.txt</code> files exist to explain the contents of that directory. Also, under <code></code/root/lab></code> directory, a ReadMe file exists explaining the manual computation and presentation parts of the project.
+* In each folder <code> <QFLCC classifiers/IBMQ>, <.../sim/QAI>, </QFLCC classifiers> </code> and <code> QI </code> under <code> </code/root/lab/sim> </code>, <code>Tips.txt</code> and/or <code>ReadMe.txt</code> files exist to explain the contents of that directory. Also, under <code></code/root/lab></code> directory, a ReadMe file exists explaining the manual computation and presentation parts of the project.
 
 <hr />
 
