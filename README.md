@@ -1,7 +1,7 @@
 # QFLCS: Quantum Field Lens Coding Simulator  
 
 This repository contains the code for the QFLCS (Quantum Field Lens Coding Simulator) as part of its algorithm, QFLCA (Quantum Field Lens Coding Algorithm) project.
-The project repositories are available at https://data.mendeley.com/datasets/gf2s8jkdjf/3 and https://doi.org/10.24433/CO.9905505.v1, which include the code, project website documentation and demo video files.
+The project repositories are available at https://data.mendeley.com/datasets/gf2s8jkdjf/3 and https://doi.org/10.24433/CO.9905505.v2, which include the code, project website documentation and demo video files.
 
 <kbd> ![1D-circuit-01](https://github.com/user-attachments/assets/df63a875-46fa-42fc-a498-6e780666718e) </kbd> 
 
@@ -10,16 +10,14 @@ The QFLCS program analyzes the measurement outcome probability (P) data from dat
 <kbd> ![QDF_Demo Line](QDF_demo_line.gif) </kbd>
 
 a. A particle pair’s energy state in a QDF (different GS states or sublevels of a GS, or see Sec. 3 of the published article),
-
 b. a particle state in an SF, an ES relative to a GS from (a.), prior to its transform into a QDF, and,
-
 c. the expected transformation of fields (ES ←→ GS) and their ⟨M(P, ψ_ij)⟩, as in Sec. 3 of the published article.
 
 <kbd> ![k-trans-QDF-P-measure-IN](k-trans-QDF-P-measure-IN.png) </kbd>
 
 This repository's file structure is a sample mirror of the Mendeley repository file structure of v3+ at https://data.mendeley.com/datasets/gf2s8jkdjf/3, but with a much smaller file size for efficient download and use of the QFLCA project's code without the documentation (website) and demo video files. Certain small updates have been made in the main python file uploaded on Code Ocean for minor debugging purposes at https://doi.org/10.24433/CO.9905505.v1. 
 
-* QFLCA project's code without the documentation (website) and demo video files can be found under the </code/root/lab/sim/QFLCC classifiers> directory in </code/root/lab/sim/QFLCC classifiers/docs> and </code/root/lab/sim/QFLCC classifiers/site> folders at https://doi.org/10.24433/CO.9905505.v1. 
+* QFLCA project's code without the documentation (website) and demo video files can be found under the </code/root/lab/sim/QFLCC classifiers> directory in </code/root/lab/sim/QFLCC classifiers/docs> and </code/root/lab/sim/QFLCC classifiers/site> folders at https://doi.org/10.24433/CO.9905505.v2. 
 
 <kbd> ![QDF_Circuit_and Dataset Analysis](QDF_circuit_screenshot.jpg) </kbd>
 * The main file is </code/root/lab/sim/QFLCC classifiers/QAI-LCode_QFLCC.py> which imports and executes the </code/root/lab/sim/QFLCC classifiers/QDF-LCode_IBMQ-2024-codable.py> or QDF-LCode_IBMQ-2024.py code for the simulation under Win OS or Linux OS. 
