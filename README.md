@@ -22,7 +22,7 @@ This repository's file structure is a sample mirror of the Mendeley repository f
 <kbd> ![QDF_Circuit_and Dataset Analysis](QDF_circuit_screenshot.jpg) </kbd>
 * The main file is <code></code/root/lab/sim/QFLCC classifiers/QAI-LCode_QFLCC.py></code> which imports and executes the <code></code/root/lab/sim/QFLCC classifiers/QDF-LCode_IBMQ-2024-codable.py></code> or <code>QDF-LCode_IBMQ-2024.py</code> code for the simulation under Win OS or Linux OS. 
 
-* We recommend downloading the entire <root> directory according to the folder structure and run <code> QAI-LCode_QFLCC.py </code> in VSC with python latest packages installed for Windows OS (the QDF game is developed for Windows OS, yet parts of the code for sound and display can be rewritten for Linux OS), e.g. "winsound" package as a compatible option. 
+* We recommend downloading the entire <code><root></code> directory according to the folder structure and run <code>QAI-LCode_QFLCC.py</code> in VSC with python latest packages installed for Windows OS (the QDF game is developed for Windows OS, yet parts of the code for sound and display can be rewritten for Linux OS), e.g. "winsound" package as a compatible option. 
 Other packages are needed to be installed or code rewritten for "sound" and "display" compatibility under other operating systems. 
 
 <kbd> <img src="https://github.com/user-attachments/assets/a6e1eece-0292-441b-a752-928f56f19928" style="border: 2px solid green" /> </kbd>
