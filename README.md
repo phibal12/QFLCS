@@ -17,7 +17,7 @@ c. the expected transformation of fields (ES $\longleftrightarrow$ GS) and their
 
 This repository's file structure is a sample mirror of the Mendeley repository file structure of v3+ at https://data.mendeley.com/datasets/gf2s8jkdjf/3, but with a much smaller file size for efficient download and use of the QFLCA project's code without the documentation (website) and demo video files. Certain small updates have been made in the main python file uploaded on Code Ocean for minor debugging purposes at https://doi.org/10.24433/CO.9905505.v2. 
 
-* QFLCA project's code without the documentation (website) and demo video files can be found under the <p style="color:rgb(0 128 128);"></code/root/lab/sim/QFLCC classifiers></p> directory in </code/root/lab/sim/QFLCC classifiers/docs> and </code/root/lab/sim/QFLCC classifiers/site> folders at https://doi.org/10.24433/CO.9905505.v2. 
+* QFLCA project's code without the documentation (website) and demo video files can be found under the <p style="color:rgb(0 128 128);"> /code/root/lab/sim/QFLCC classifiers </p> directory in </code/root/lab/sim/QFLCC classifiers/docs> and </code/root/lab/sim/QFLCC classifiers/site> folders at https://doi.org/10.24433/CO.9905505.v2. 
 
 <kbd> ![QDF_Circuit_and Dataset Analysis](QDF_circuit_screenshot.jpg) </kbd>
 * The main file is </code/root/lab/sim/QFLCC classifiers/QAI-LCode_QFLCC.py> which imports and executes the </code/root/lab/sim/QFLCC classifiers/QDF-LCode_IBMQ-2024-codable.py> or QDF-LCode_IBMQ-2024.py code for the simulation under Win OS or Linux OS. 
