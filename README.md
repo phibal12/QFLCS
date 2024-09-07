@@ -43,7 +43,7 @@ A short presentation explaining these points are given in the <code></site/asset
 
 The following figure is a downloadable High-Res Graphical Abstract of the QFLCA published article in Data in Brief, Elsevier J, at: https://www.sciencedirect.com/science/article/pii/S2352340924007546
 
-<kbd> ![QFLCA Graphical Abstract (DIB journal)](./root/DIB_GAbstract.jpg) </kbd>
+<kbd> ![QFLCA Graphical Abstract (DIB journal)](./root/DIB_GAbstract.png) </kbd>
 
 <hr />
 
