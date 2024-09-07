@@ -21,8 +21,7 @@ This repository's file structure is a sample mirror of the Mendeley repository f
 * The main file is <code></code/root/lab/sim/QFLCC classifiers/QAI-LCode_QFLCC.py></code> which imports and executes the <code></code/root/lab/sim/QFLCC classifiers/QDF-LCode_IBMQ-2024-codable.py></code> or <code>QDF-LCode_IBMQ-2024.py</code> code for the simulation under Win OS or Linux OS.  
 
 <kbd> ![QDF_Circuit_and Dataset Analysis](QDF_circuit_screenshot.jpg) </kbd>
-* We recommend downloading the entire <code> root </code> directory according to the folder structure and run <code>QAI-LCode_QFLCC.py</code> in VSC with python latest packages installed for Windows OS (the QDF game is developed for Windows OS, yet parts of the code for sound and display can be rewritten for Linux OS), e.g. <code>"winsound"</code> package as a compatible option. 
-Other packages are needed to be installed or code rewritten for <code>"sound"</code> and <code>"display"</code> compatibility under other operating systems.
+* We recommend downloading the entire <code> root </code> directory according to the folder structure and run <code>QAI-LCode_QFLCC.py</code> in VSC with python latest packages installed for Windows OS (the QDF game is developed for Windows OS, yet parts of the code for sound and display can be rewritten for Linux OS), e.g. <code>"winsound"</code> package as a compatible option. Other packages are needed to be installed or code rewritten for <code>"sound"</code> and <code>"display"</code> compatibility under other operating systems.
 * The <code>QAI-LCode_QFLCC.py</code> file has a Pygame GUI and other packages suited for local machine runs, rather than running this file on the Code Ocean platform which could take hours to compile and run a compatible program/game with packages. 
 However, the <code>QDF-LCode_IBMQ-2024-codable.py</code> can be run here as the core of the simulation program simulating the QDF circuit. 
 A short presentation explaining these points are given in the <code></site/assets/video></code> directory as the <code>QAI-COcean-Demo.mp4</code> file.
@@ -31,11 +30,10 @@ A short presentation explaining these points are given in the <code></site/asset
 
 * The User and Developer's documentation/manual/demo is found under the <code></code/root/lab/sim/QFLCC&nbsp;classifiers></code> directory, as <code> site-prints </code> and <code> site </code> contents.
 * In each folder <code><QFLCC classifiers/IBMQ>, <.../sim/QAI>, </QFLCC classifiers></code> and <code> QI </code> under <code></code/root/lab/sim></code>, <code>Tips.txt</code> and/or <code>ReadMe.txt</code> files exist to explain the contents of that directory. Also, under <code></code/root/lab></code> directory, a ReadMe file exists explaining the manual computation and presentation parts of the project.
+  
 <kbd> ![QDF Game Scores Screenshot](QDF_game_screenshot.jpg) </kbd>
 
 * Graphical Abstract files can be accessed from <code></code/root></code>. The following figure is a downloadable High-Res Graphical Abstract of the QFLCS published article in Software Impacts, Elsevier J, at: https://www.sciencedirect.com/science/article/pii/S2665963824000915 
-
-
 <kbd> ![QFLCS Graphical Abstract (SIMPAC journal)](./root/SIMPAC_GAbstract.jpg) </kbd>
 
 The following figure is a downloadable High-Res Graphical Abstract of the QFLCA published article in Data in Brief, Elsevier J, at: https://www.sciencedirect.com/science/article/pii/S2352340924007546
