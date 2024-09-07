@@ -45,6 +45,11 @@ The following figure is a downloadable High-Res Graphical Abstract of the QFLCA 
 
 <kbd> ![QFLCA Graphical Abstract (DIB journal)](./root/DIB_GAbstract.png) </kbd>
 
+The following figure is a downloadable High-Res Graphical Abstract of the QFLCA published article in MethodsX, Elsevier J, at: https://www.sciencedirect.com/science/article/pii/S221501612300136X
+
+<kbd> ![QFLCA Graphical Abstract (MethodsX journal)](./root/MethodsX_GAbstract.png) </kbd>
+MethX_GAbstract.png
+
 <hr />
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
