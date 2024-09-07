@@ -34,7 +34,6 @@ A short presentation explaining these points are given in the <code></site/asset
 <kbd> ![QDF Game Scores Screenshot](QDF_game_screenshot.jpg) </kbd>
 
 * The User and Developer's documentation/manual/demo is found under the <code></code/root/lab/sim/QFLCC classifiers></code> directory, as <code> site-prints </code> and <code> site </code> contents.
-
 * In each folder <code><QFLCC classifiers/IBMQ>, <.../sim/QAI>, </QFLCC classifiers></code> and <code> QI </code> under <code></code/root/lab/sim></code>, <code>Tips.txt</code> and/or <code>ReadMe.txt</code> files exist to explain the contents of that directory. Also, under <code></code/root/lab></code> directory, a ReadMe file exists explaining the manual computation and presentation parts of the project.
 * Graphical Abstract files can be accessed from <code></code/root></code>. The following figure is a downloadable High-Res Graphical Abstract of the QFLCS published article in Software Impacts, Elsevier J, at: https://www.sciencedirect.com/science/article/pii/S2665963824000915 
 
