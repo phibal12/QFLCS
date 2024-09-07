@@ -9,9 +9,9 @@ The QFLCS program analyzes the measurement outcome probability ($\cal P$) data f
 
 <kbd> ![QDF_Demo Line](QDF_demo_line.gif) </kbd>
 
-- **a.** A particle pair’s energy state in a QDF (different GS states or sublevels of a GS, or see Sec. 3 of the published article), <br>
-- **b.** a particle state in an SF, an ES relative to a GS from (a.), prior to its transform into a QDF, and, <br>
-- **c.** the expected transformation of fields (ES $\longleftrightarrow$ GS) and their $⟨{\frak M}(\cal{P}, \psi_{ij})⟩$, as in Sec. 3 of the published article.
+- **a)** A particle pair’s energy state in a QDF (different GS states or sublevels of a GS, or see Sec. 3 of the published article), <br>
+- **b)** a particle state in an SF, an ES relative to a GS from (a.), prior to its transform into a QDF, and, <br>
+- **c)** the expected transformation of fields (ES $\longleftrightarrow$ GS) and their $⟨{\frak M}(\cal{P}, \psi_{ij})⟩$, as in Sec. 3 of the published article.
 
 <kbd> ![k-trans-QDF-P-measure-IN](k-trans-QDF-P-measure-IN.png) </kbd>
 
@@ -47,8 +47,7 @@ The following figure is a downloadable High-Res Graphical Abstract of the QFLCA 
 
 The following figure is a downloadable High-Res Graphical Abstract of the QFLCA published article in MethodsX, Elsevier J, at: https://www.sciencedirect.com/science/article/pii/S221501612300136X
 
-<kbd> ![QFLCA Graphical Abstract (MethodsX journal)](./root/MethodsX_GAbstract.png) </kbd>
-MethX_GAbstract.png
+<kbd> ![QFLCA Graphical Abstract (MethodsX journal)](./root/MethX_GAbstract.png) </kbd>
 
 <hr />
 
