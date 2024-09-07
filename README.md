@@ -37,6 +37,10 @@ A short presentation explaining these points are given in the <code></site/asset
 
 * In each folder <code><QFLCC classifiers/IBMQ>, <.../sim/QAI>, </QFLCC classifiers></code> and <code> QI </code> under <code></code/root/lab/sim></code>, <code>Tips.txt</code> and/or <code>ReadMe.txt</code> files exist to explain the contents of that directory. Also, under <code></code/root/lab></code> directory, a ReadMe file exists explaining the manual computation and presentation parts of the project.
 
+
+<kbd> ![QDF_Circuit_and Dataset Analysis](./root/SIMPAC_GAbstract.jpg) </kbd>
+
+
 <hr />
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
