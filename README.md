@@ -39,11 +39,11 @@ A short presentation explaining these points are given in the <code></site/asset
 * Graphical Abstract files can be accessed from <code></code/root></code>. The following figure is a downloadable High-Res Graphical Abstract of the QFLCS published article in Software Impacts, Elsevier J, at: https://www.sciencedirect.com/science/article/pii/S2665963824000915 
 
 
-<kbd> ![QDF_Circuit_and Dataset Analysis](./root/SIMPAC_GAbstract.jpg) </kbd>
+<kbd> ![QFLCS Graphical Abstract (SIMPAC journal)](./root/SIMPAC_GAbstract.jpg) </kbd>
 
 The following figure is a downloadable High-Res Graphical Abstract of the QFLCA published article in Data in Brief, Elsevier J, at: https://www.sciencedirect.com/science/article/pii/S2352340924007546
 
-<kbd> ![QDF_Circuit_and Dataset Analysis](./root/DIB_GAbstract.jpg) </kbd>
+<kbd> ![QFLCA Graphical Abstract (DIB journal)](./root/DIB_GAbstract.jpg) </kbd>
 
 <hr />
 
