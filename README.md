@@ -53,9 +53,9 @@ P. B. Alipour, T. A. Gulliver,
 QF-LCA dataset: Quantum field lens coding algorithm for system state simulation and strong predictions, Data in Brief,
 2024, 110789, ISSN 2352-3409, https://doi.org/10.1016/j.dib.2024.110789.
 
-@article{110789,
+@article{110789, <br/>
 author={Alipour, P.B. and Gulliver, T.A.},  <br/>
-title = {{QF-LCA} dataset: {Quantum Field Lens Coding Algorithm} for System State Simulation and Strong Predictions}, <br/> 
+title = {QF-LCA dataset: Quantum Field Lens Coding Algorithm for System State Simulation and Strong Predictions}, <br/> 
 journal = {Data in Brief, Eslevier BV}, <br/>
 year = {2024}, <br/>
 artnum = {110789}, <br/>
@@ -64,18 +64,18 @@ url = {https://www.sciencedirect.com/science/article/pii/S2352340924007546} <br/
 }
 
 P. B. Alipour, T. A. Gulliver,
-QF-LCS: Quantum field lens coding simulator and game tool for strong system state predictions, Software Impacts,
+QF-LCS: Quantum Field Lens Coding Simulator and Game Tool for Strong System State Predictions, Software Impacts,
 2024, 100703, ISSN 2665-9638, https://doi.org/10.1016/j.simpa.2024.100703.
 
-@article{ALIPOUR2024100703,
-author = {Alipour, P.B. and Gulliver, T.A.},
-title = {QF-LCS: Quantum field lens coding simulator and game tool for strong system state predictions},
-journal = {Software Impacts},
-pages = {100703},
-year = {2024},
-issn = {2665-9638},
-doi = {doi.org/10.1016/j.simpa.2024.100703},
-url = {https://www.sciencedirect.com/science/article/pii/S2665963824000915}
+@article{100703, <br/>
+author = {Alipour, P.B. and Gulliver, T.A.}, <br/ >
+title = {QF-LCS: Quantum Field Lens Coding Simulator and Game Tool for strong system state predictions}, <br/>
+journal = {Software Impacts}, <br/>
+pages = {100703}, <br/>
+year = {2024}, <br/>
+issn = {2665-9638}, <br/>
+doi = {doi.org/10.1016/j.simpa.2024.100703}, <br/>
+url = {https://www.sciencedirect.com/science/article/pii/S2665963824000915} <br/>
 }
 
 
