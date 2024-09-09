@@ -49,7 +49,7 @@ The following figure is a downloadable High-Res Graphical Abstract of the QFLCA 
 If you find this repository useful in your research, please cite one or both of the following articles as: 
 <hr />
 
-P. B. Alipour, T. A. Gulliver,
+- P. B. Alipour, T. A. Gulliver,
 QF-LCA Dataset: Quantum Field Lens Coding Algorithm for System State Simulation and Strong Predictions, Data in Brief, Eslevier BV,
 2024, 110789, ISSN 2352-3409, https://doi.org/10.1016/j.dib.2024.110789.
 
@@ -65,7 +65,7 @@ url = {https://www.sciencedirect.com/science/article/pii/S2352340924007546}
 }
 ```
 
-P. B. Alipour, T. A. Gulliver,
+- P. B. Alipour, T. A. Gulliver,
 QF-LCS: Quantum Field Lens Coding Simulator and Game Tool for Strong System State Predictions, Software Impacts, Eslevier BV,
 2024, 100703, ISSN 2665-9638, https://doi.org/10.1016/j.simpa.2024.100703.
 
