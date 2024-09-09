@@ -67,8 +67,8 @@ P. B. Alipour, T. A. Gulliver,
 QF-LCS: Quantum Field Lens Coding Simulator and Game Tool for Strong System State Predictions, Software Impacts,
 2024, 100703, ISSN 2665-9638, https://doi.org/10.1016/j.simpa.2024.100703.
 
-@article{100703, <br/>
-author = {Alipour, P.B. and Gulliver, T.A.}, <br/ >
+```@article{100703, <br/>
+author = {Alipour, P.B. and Gulliver, T.A.}, <br/>
 title = {QF-LCS: Quantum Field Lens Coding Simulator and Game Tool for strong system state predictions}, <br/>
 journal = {Software Impacts}, <br/>
 pages = {100703}, <br/>
@@ -77,7 +77,7 @@ issn = {2665-9638}, <br/>
 doi = {doi.org/10.1016/j.simpa.2024.100703}, <br/>
 url = {https://www.sciencedirect.com/science/article/pii/S2665963824000915} <br/>
 }
-
+```
 
 
 <hr />
