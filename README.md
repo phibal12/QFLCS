@@ -61,7 +61,7 @@ journal = {Data in Brief, Eslevier BV},
 year = {2024}, 
 artnum = {110789}, 
 doi = {10.1016/j.dib.2024.110789}, 
-url = {[https://www.sciencedirect.com/science/article/pii/S2352340924007546](https://www.sciencedirect.com/science/article/pii/S2352340924007546)} 
+url = {https://www.sciencedirect.com/science/article/pii/S2352340924007546} 
 }
 ```
 
@@ -78,7 +78,7 @@ pages = {100703},
 year = {2024}, 
 issn = {2665-9638}, 
 doi = {doi.org/10.1016/j.simpa.2024.100703}, 
-url = {[https://www.sciencedirect.com/science/article/pii/S2665963824000915](https://www.sciencedirect.com/science/article/pii/S2665963824000915)} 
+url = {https://www.sciencedirect.com/science/article/pii/S2665963824000915} 
 }
 ```
 
