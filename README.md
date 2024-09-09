@@ -55,7 +55,7 @@ QF-LCA Dataset: Quantum Field Lens Coding Algorithm for System State Simulation 
 
 ```
 @article{110789, 
-author={Alipour, P.B. and Gulliver, T.A.},  
+author = {Alipour, P.B. and Gulliver, T.A.},  
 title = {QF-LCA Dataset: Quantum Field Lens Coding Algorithm for System State Simulation and Strong Predictions}, 
 journal = {Data in Brief, Eslevier BV}, 
 year = {2024}, 
