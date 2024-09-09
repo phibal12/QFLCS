@@ -1,9 +1,9 @@
 # QFLCS: Quantum Field Lens Coding Simulator  
-[![Open in Mendeley Data](https://img.shields.io/badge/Mendeley-9D1620?style=for-the-badge&logo=Mendeley&logoColor=white)](https://data.mendeley.com/datasets/gf2s8jkdjf)
+[![Mendeley Badge](https://img.shields.io/badge/Mendeley%20Data-v.3-red.svg)](https://data.mendeley.com/datasets/gf2s8jkdjf/3)
 [![VSCode Badge](https://img.shields.io/badge/All%20Code%20by%20VS%20Code-v.1.3-blue.svg)](https://codeocean.com/capsule/6853712/tree/v2/code/root/lab/sim/QFLCC%20classifiers/QAI-LCode_QFLCC.py)
 [![Code in Python v>3.1](https://img.shields.io/badge/Python-v.3+-3776AB.svg?style=flat&amp;logo=python&amp;logoColor=white)](https://codeocean.com/capsule/6853712/tree/v2/code/root/lab/sim/QFLCC%20classifiers/QDF-LCode_IBMQ-2024-codable.py)
 [![Jupyter Lab](https://img.shields.io/badge/Jupyter-Lab-F37626.svg?style=flat&amp;logo=Jupyter)](https://codeocean.com/capsule/6853712/tree/v2/code/root/lab/sim/QFLCC%20classifiers/QDF-LCode_IBMQ-2024-raw-codable.ipynb)
-[![doi.org/10.24433/CO.9905505.v2](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/6853712/tree/v2)
+[![doi.org/10.24433/CO.9905505.v2](https://codeocean.com/codeocean-assets/badge/code-ocean.svg)](https://codeocean.com/capsule/6853712/tree/v2)
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This repository contains the code for the QFLCS (Quantum Field Lens Coding Simulator) as part of its algorithm, QFLCA (Quantum Field Lens Coding Algorithm) project.
