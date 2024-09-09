@@ -50,7 +50,7 @@ If you find this repository useful in your research, please cite one or both of 
 <hr />
 
 P. B. Alipour, T. A. Gulliver,
-QF-LCA dataset: Quantum field lens coding algorithm for system state simulation and strong predictions, Data in Brief,
+QF-LCA Dataset: Quantum Field Lens Coding Algorithm for System State Simulation and Strong Predictions, Data in Brief,
 2024, 110789, ISSN 2352-3409, https://doi.org/10.1016/j.dib.2024.110789.
 
 ```
@@ -61,7 +61,7 @@ journal = {Data in Brief, Eslevier BV},
 year = {2024}, 
 artnum = {110789}, 
 doi = {10.1016/j.dib.2024.110789}, 
-url = {[`https://www.sciencedirect.com/science/article/pii/S2352340924007546`](https://www.sciencedirect.com/science/article/pii/S2352340924007546)} 
+url = {[https://www.sciencedirect.com/science/article/pii/S2352340924007546](https://www.sciencedirect.com/science/article/pii/S2352340924007546)} 
 }
 ```
 
@@ -78,7 +78,7 @@ pages = {100703},
 year = {2024}, 
 issn = {2665-9638}, 
 doi = {doi.org/10.1016/j.simpa.2024.100703}, 
-url = {[`https://www.sciencedirect.com/science/article/pii/S2665963824000915`](https://www.sciencedirect.com/science/article/pii/S2665963824000915)} 
+url = {[https://www.sciencedirect.com/science/article/pii/S2665963824000915](https://www.sciencedirect.com/science/article/pii/S2665963824000915)} 
 }
 ```
 
