@@ -9,7 +9,7 @@ Technical: [![Mendeley Badge](https://img.shields.io/badge/Mendeley%20Data-v.3+-
 Social: [![Author's LinkedIn](https://img.shields.io/badge/LinkedIn-blue.svg?style=flat&amp;logo=linkedin&logoColor=white)](http://ca.linkedin.com/pub/philip-baback-alipour/b/b13/b35)
 
 Academic: [![Author's ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png?style=flat&amp;logo=linkedin&logoColor=white)](https://orcid.org/0000-0003-1037-018X)
-
+<hr/>
 
 This repository contains the code for the QFLCS (Quantum Field Lens Coding Simulator) as part of its algorithm, QFLCA (Quantum Field Lens Coding Algorithm) project.
 The project repositories are available at https://data.mendeley.com/datasets/gf2s8jkdjf/3 and https://doi.org/10.24433/CO.9905505.v2, which include the code, project website documentation, and demo video files.
