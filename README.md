@@ -1,4 +1,5 @@
 # QFLCS: Quantum Field Lens Coding Simulator  
+<a href="https://codeocean.com/capsule/6853712/tree/v2" rel="nofollow"><img src="https://camo.githubusercontent.com/e87f2f36d121738df28a7874060df38088670c1aad8eed3af5b76c9a34ad86c7/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f6c6162656c3d266d6573736167653d636f64652b6f6365616e26636f6c6f723d626c7565" alt="Reproducible Capsule" data-canonical-src="https://img.shields.io/static/v1?label=&amp;message=code+ocean&amp;color=blue" style="max-width: 100%;"></a>
 
 This repository contains the code for the QFLCS (Quantum Field Lens Coding Simulator) as part of its algorithm, QFLCA (Quantum Field Lens Coding Algorithm) project.
 The project repositories are available at https://data.mendeley.com/datasets/gf2s8jkdjf/3 and https://doi.org/10.24433/CO.9905505.v2, which include the code, project website documentation and demo video files.
