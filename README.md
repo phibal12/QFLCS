@@ -1,12 +1,10 @@
 # QFLCS: Quantum Field Lens Coding Simulator  
 Technical: [![Mendeley Badge](https://img.shields.io/badge/Mendeley%20Data-v.3-red.svg)](https://data.mendeley.com/datasets/gf2s8jkdjf/3)
-[![VSCode Badge](https://img.shields.io/badge/All%20Code%20by%20VS%20Code-v.1.3-blue.svg?style=flat&amp;logo=vscode-badge)](https://codeocean.com/capsule/6853712/tree/v2/code/root/lab/sim/QFLCC%20classifiers/QAI-LCode_QFLCC.py)
+[![VSCode Badge](https://img.shields.io/badge/All%20Code%20by%20VS%20Code-v.1.3-blue.svg?style=flat&amp;logo=vscode)](https://codeocean.com/capsule/6853712/tree/v2/code/root/lab/sim/QFLCC%20classifiers/QAI-LCode_QFLCC.py)
 [![Code in Python v>3.1](https://img.shields.io/badge/Python-v.3+-3776AB.svg?style=flat&amp;logo=python&amp;logoColor=white)](https://codeocean.com/capsule/6853712/tree/v2/code/root/lab/sim/QFLCC%20classifiers/QDF-LCode_IBMQ-2024-codable.py)
 [![Jupyter Lab](https://img.shields.io/badge/Jupyter-Lab-F37626.svg?style=flat&amp;logo=Jupyter)](https://codeocean.com/capsule/6853712/tree/v2/code/root/lab/sim/QFLCC%20classifiers/QDF-LCode_IBMQ-2024-raw-codable.ipynb)
 [![doi.org/10.24433/CO.9905505.v2](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/6853712/tree/v2)
-[![CC BY 4.0][cc-by-shield]][cc-by]
-
-Academic: [![Author's ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png?style=flat&amp;logo=linkedin&logoColor=white)](https://orcid.org/0000-0003-1037-018X)
+[![CC BY 4.0][cc-by-shield]][cc-by] | Academic: [![Author's ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png?style=flat&amp;logo=linkedin&logoColor=white)](https://orcid.org/0000-0003-1037-018X)
 
 Social: [![Author's LinkedIn](https://img.shields.io/badge/LinkedIn-blue.svg?style=flat&amp;logo=linkedin&logoColor=white)](http://ca.linkedin.com/pub/philip-baback-alipour/b/b13/b35)
 
