@@ -47,7 +47,7 @@ The following figure is a downloadable High-Res Graphical Abstract of the QFLCA 
 
 # Citation
 <hr />
-If you find this repository useful in your research, please cite one or more of the following articles as:
+If you find this repository useful in your research, please cite one or more of the following articles as: 
 
 @article{110789,
 author={Alipour, P.B. and Gulliver, T.A.}, 
@@ -66,7 +66,7 @@ journal = {Software Impacts},
 pages = {100703},
 year = {2024},
 issn = {2665-9638},
-doi = {https://doi.org/10.1016/j.simpa.2024.100703},
+doi = {doi.org/10.1016/j.simpa.2024.100703},
 url = {https://www.sciencedirect.com/science/article/pii/S2665963824000915},
 author = {Alipour, P.B. and Gulliver, T.A.},
 
