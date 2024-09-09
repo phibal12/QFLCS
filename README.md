@@ -53,7 +53,7 @@ P. B. Alipour, T. A. Gulliver,
 QF-LCA Dataset: Quantum Field Lens Coding Algorithm for System State Simulation and Strong Predictions, Data in Brief,
 2024, 110789, ISSN 2352-3409, https://doi.org/10.1016/j.dib.2024.110789.
 
-```{=latex}
+```
 @article{110789, 
 author={Alipour, P.B. and Gulliver, T.A.},  
 title = {QF-LCA Dataset: Quantum Field Lens Coding Algorithm for System State Simulation and Strong Predictions}, 
@@ -69,7 +69,7 @@ P. B. Alipour, T. A. Gulliver,
 QF-LCS: Quantum Field Lens Coding Simulator and Game Tool for Strong System State Predictions, Software Impacts,
 2024, 100703, ISSN 2665-9638, https://doi.org/10.1016/j.simpa.2024.100703.
 
-```{=latex}
+```
 @article{100703, 
 author = {Alipour, P.B. and Gulliver, T.A.}, 
 title = {QF-LCS: Quantum Field Lens Coding Simulator and Game Tool for strong system state predictions}, 
