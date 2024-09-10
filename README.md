@@ -33,7 +33,7 @@ The QFLCS program analyzes the measurement outcome probability ($\cal P$) data f
 |:--:| 
 |*QDF Circuit Measured from a Sum (&nbsp;&Sigma;&nbsp;) of Single Field (SF) to QDF Transformations of Qbit-pairs*|
 
-This repository's file structure is a sample mirror of the Mendeley repository file structure of v3+ at https://data.mendeley.com/datasets/gf2s8jkdjf/3, but with a much smaller file size for efficient download and use of the QFLCA project's code without the documentation (website) and demo video files. Certain small updates have been made in the main python file uploaded on Code Ocean for minor debugging purposes at https://doi.org/10.24433/CO.9905505.v2 or [Code Ocean](https://doi.org/10.24433/CO.9905505.v2). 
+<u>This repository's</u> file structure is a sample mirror of the Mendeley repository file structure of v3+ at https://data.mendeley.com/datasets/gf2s8jkdjf/3, but with a much smaller file size for efficient download and use of the QFLCA project's code without the documentation (website) and demo video files. Certain small updates have been made in the main python file uploaded on Code Ocean for minor debugging purposes at https://doi.org/10.24433/CO.9905505.v2 or [Code Ocean](https://doi.org/10.24433/CO.9905505.v2). 
 
 * QFLCA project's code without the documentation (website) and demo video files can be found under the <code></code/root/lab/sim/QFLCC classifiers></code> directory in <code></code/root/lab/sim/QFLCC classifiers/docs></code> and <code></code/root/lab/sim/QFLCC classifiers/site></code> folders at https://doi.org/10.24433/CO.9905505.v2 or [Code Ocean](https://doi.org/10.24433/CO.9905505.v2).
 * The main file is <code></code/root/lab/sim/QFLCC classifiers/QAI-LCode_QFLCC></code> which imports and executes the <code></code/root/lab/sim/QFLCC classifiers/QDF-LCode_IBMQ-2024-codable></code> or <code>QDF-LCode_IBMQ-2024</code> code for the simulation under Win OS or Linux OS.
@@ -46,7 +46,7 @@ This repository's file structure is a sample mirror of the Mendeley repository f
 |*QInpire QDF Circuit Experiment Results*|
 |<kbd> ![IBM QDF_Circuit_Experiment](<./root/lab/sim/QFLCC classifiers/QDFCircuit_2023.png>) </kbd>|
 |*IBM QDF Circuit Experiment*|
-|<mark style="background-color: #FFFF00"> ${\color{orange}{In(}}{ QInspire\ ,\ IBMQ\ }{\color{orange}{)&nbsp;&#8594;&nbsp;}} {\color{orange}{QFLCS}} {\color{orange}{&nbsp;&#8594;&nbsp; Out(}}{ QInpire\ QDF\ Circuit\ Data\ ,\ IBM\ QDF\ Circuit\ Data\ })&nbsp;&#8594;&nbsp; {\color{orange}{In(}}{\color{green}{QFLCC}}{\color{orange}{)&nbsp;&#8594;&nbsp; Out(&#8628;)}}$ </mark>|
+|${\color{orange}{In(}}{ QInspire\ ,\ IBMQ\ }{\color{orange}{)&nbsp;&#8594;&nbsp;}} {\color{orange}{QFLCS}} {\color{orange}{&nbsp;&#8594;&nbsp; Out(}}{ QInpire\ QDF\ Circuit\ Data\ ,\ IBM\ QDF\ Circuit\ Data\ })&nbsp;&#8594;&nbsp; {\color{orange}{In(}}{\color{green}{QFLCC}}{\color{orange}{)&nbsp;&#8594;&nbsp; Out(&#8628;)}}$|
 |<kbd> ![QDF_Circuit_Sim and Dataset Analysis](QDF_circuit_screenshot.jpg) </kbd>|
 |*IBM_QInspire QDF Circuit Simulation and Dataset Analysis by QFLCS and QFLCC*|
 
