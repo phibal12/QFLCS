@@ -31,7 +31,7 @@ The QFLCS program analyzes the measurement outcome probability ($\cal P$) data f
 
 |<kbd> ![k-trans-QDF-P-measure-IN](k-trans-QDF-P-measure-IN.png) </kbd>|
 |:--:| 
-|*QDF Circuit Measured from a Sum (&Sigma;) of Single Field (SF) to QDF Transformations of Qbit-pairs*|
+|*QDF Circuit Measured from a Sum (&nbsp;&Sigma;&nbsp;) of Single Field (SF) to QDF Transformations of Qbit-pairs*|
 
 This repository's file structure is a sample mirror of the Mendeley repository file structure of v3+ at https://data.mendeley.com/datasets/gf2s8jkdjf/3, but with a much smaller file size for efficient download and use of the QFLCA project's code without the documentation (website) and demo video files. Certain small updates have been made in the main python file uploaded on Code Ocean for minor debugging purposes at https://doi.org/10.24433/CO.9905505.v2 or [Code Ocean](https://doi.org/10.24433/CO.9905505.v2). 
 
@@ -41,12 +41,15 @@ This repository's file structure is a sample mirror of the Mendeley repository f
 |<kbd> ![QInspire QDF_Circuit Experiment](<./root/lab/sim/QFLCC classifiers/QI_Exp_05.png>) </kbd>|
 |:--:| 
 |*QInpire QDF Circuit Experiment*|
+
 |<kbd> ![QInspire QDF_Circuit_Experiment Results](<./root/lab/sim/QFLCC classifiers/QI_Exp_05_H.png>) </kbd>|
 |:--:| 
 |*QInpire QDF Circuit Experiment Results*|
+
 |<kbd> ![IBM QDF_Circuit_Experiment](<./root/lab/sim/QFLCC classifiers/QDFCircuit_2023.png>) </kbd>|
 |:--:| 
-|*QInpire QDF Circuit Experiment*|
+|*IBM QDF Circuit Experiment*|
+
 |<kbd> ![QDF_Circuit_and Dataset Analysis](QDF_circuit_screenshot.jpg) </kbd>|
 |:--:| 
 |*IBM/QInspire QDF Circuit and Dataset Analysis by QFLCS*|
