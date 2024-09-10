@@ -69,19 +69,21 @@ A short presentation explaining these points are given in the <code></site/asset
 * Graphical Abstract files can be accessed from <code></code/root></code>.
 
 # Visual Project Summary
-The following figure is a downloadable High-Res Graphical Abstract of the published QFLCS article in Software Impacts, Elsevier BV, at: https://www.sciencedirect.com/science/article/pii/S2665963824000915
+The QFLCA project is going through stages of development resulting in software products such as the QFLCC and QFLCS programs. These have been summarized in form of peer-reviewed and published articles and their corresponding graphical abstracts representing this project.    
+
+* The following figure is a downloadable High-Res Graphical Abstract of the published QFLCS article in Software Impacts, Elsevier BV, at: https://www.sciencedirect.com/science/article/pii/S2665963824000915
  
 |<kbd> ![QFLCS Graphical Abstract (SIMPAC journal)](./root/SIMPAC_GAbstract.jpg) </kbd>|
 |:--:| 
 |*Graphical Abstract of QFLCS*|
 
-The following figure, is a downloadable High-Res Graphical Abstract of the published QFLCA article in Data in Brief, Elsevier BV, at: https://www.sciencedirect.com/science/article/pii/S2352340924007546
+* The following figure, is a downloadable High-Res Graphical Abstract of the published QFLCA article in Data in Brief, Elsevier BV, at: https://www.sciencedirect.com/science/article/pii/S2352340924007546
 
 |<kbd> ![QFLCA Graphical Abstract (DIB journal)](./root/DIB_GAbstract.png) </kbd>|
 |:--:| 
 |*Graphical Abstract of QFLCA Dataset*|
 
-The following figure is a downloadable High-Res Graphical Abstract of the published QFLCA article in MethodsX, Elsevier BV, at: https://www.sciencedirect.com/science/article/pii/S221501612300136X
+* The following figure is a downloadable High-Res Graphical Abstract of the published QFLCA article in MethodsX, Elsevier BV, at: https://www.sciencedirect.com/science/article/pii/S221501612300136X
 
 |<kbd> ![QFLCA Graphical Abstract (MethodsX journal)](./root/MethX_GAbstract.png) </kbd>|
 |:--:|
