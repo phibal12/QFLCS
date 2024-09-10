@@ -5,7 +5,8 @@ Technical: [![On GitHub](https://img.shields.io/badge/GitHub-SoftwareImpacts-009
 [![Code in Python v>3.1](https://img.shields.io/badge/Python-v.3+-3776AB.svg?style=flat&amp;logo=python&amp;logoColor=white)](https://codeocean.com/capsule/6853712/tree/v2/code/root/lab/sim/QFLCC%20classifiers/QDF-LCode_IBMQ-2024-codable.py)
 [![Jupyter Lab](https://img.shields.io/badge/Jupyter-Lab-F37626.svg?style=flat&amp;logo=Jupyter)](https://codeocean.com/capsule/6853712/tree/v2/code/root/lab/sim/QFLCC%20classifiers/QDF-LCode_IBMQ-2024-raw-codable.ipynb)
 [![Open in Code Ocean](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/6853712/tree/v2)
-[![CC BY 4.0][cc-by-shield]][cc-by]
+
+Legal: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 Social: [![GitHub Profile](https://img.shields.io/badge/GitHub-phibal12%20profile%20+%20projects-009688.svg?style=flat&amp;logo=github)](https://github.com/phibal12)
 [![Author's LinkedIn](https://img.shields.io/badge/LinkedIn-blue.svg?style=flat&amp;logo=linkedin&logoColor=white)](http://ca.linkedin.com/pub/philip-baback-alipour/b/b13/b35)
