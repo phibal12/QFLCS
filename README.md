@@ -46,7 +46,7 @@ This repository's file structure is a sample mirror of the Mendeley repository f
 |*QInpire QDF Circuit Experiment Results*|
 |<kbd> ![IBM QDF_Circuit_Experiment](<./root/lab/sim/QFLCC classifiers/QDFCircuit_2023.png>) </kbd>|
 |*IBM QDF Circuit Experiment*|
-|{==${\color{orange}{In(}}{ QInspire\ ,\ IBMQ\ }{\color{orange}{)&nbsp;&#8594;&nbsp;}} {\color{orange}{QFLCS}} {\color{orange}{&nbsp;&#8594;&nbsp; Out(}}{ QInpire\ QDF\ Circuit\ Data\ ,\ IBM\ QDF\ Circuit\ Data\ })&nbsp;&#8594;&nbsp; {\color{orange}{In(}}{\color{green}{QFLCC}}{\color{orange}{)&nbsp;&#8594;&nbsp; Out(&#8628;)}}$==}|
+|${\color{orange}{In(}}{ QInspire\ ,\ IBMQ\ }{\color{orange}{)&nbsp;&#8594;&nbsp;}} {\color{orange}{QFLCS}} {\color{orange}{&nbsp;&#8594;&nbsp; Out(}}{ QInpire\ QDF\ Circuit\ Data\ ,\ IBM\ QDF\ Circuit\ Data\ })&nbsp;&#8594;&nbsp; {\color{orange}{In(}}{\color{green}{QFLCC}}{\color{orange}{)&nbsp;&#8594;&nbsp; Out(&#8628;)}}$|
 |<kbd> ![QDF_Circuit_Sim and Dataset Analysis](QDF_circuit_screenshot.jpg) </kbd>|
 |*IBM_QInspire QDF Circuit Simulation and Dataset Analysis by QFLCS and QFLCC*|
 
@@ -78,7 +78,7 @@ The following figure, is a downloadable High-Res Graphical Abstract of the publi
 
 The following figure is a downloadable High-Res Graphical Abstract of the published QFLCA article in MethodsX, Elsevier BV, at: https://www.sciencedirect.com/science/article/pii/S221501612300136X
 
-<kbd> ![QFLCA Graphical Abstract (MethodsX journal)](./root/MethX_GAbstract.png) </kbd>
+|<kbd> ![QFLCA Graphical Abstract (MethodsX journal)](./root/MethX_GAbstract.png) </kbd>|
 |*Graphical Abstract of QFLCA Model and Method*|
 
 # Citation
