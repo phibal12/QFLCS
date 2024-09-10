@@ -69,7 +69,7 @@ A short presentation explaining these points are given in the <code></site/asset
 * Graphical Abstract files can be accessed from <code></code/root></code>.
 
 # Visual Project Summary
-The QFLCA project is going through stages of development resulting in software products such as the QFLCC and QFLCS programs. These have been summarized in form of peer-reviewed and published articles and their corresponding graphical abstracts representing this project.    
+The QFLCA project is going through stages of development resulting in software products, such as QFLCC and QFLCS programs. These products have been summarized in form of peer-reviewed published articles with their corresponding graphical abstracts representing this project.    
 
 * The following figure is a downloadable High-Res Graphical Abstract of the published QFLCS article in Software Impacts, Elsevier BV, at: https://www.sciencedirect.com/science/article/pii/S2665963824000915
  
