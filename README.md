@@ -48,7 +48,7 @@ This repository's file structure is a sample mirror of the Mendeley repository f
 |*IBM QDF Circuit Experiment*|
 |${\color{orange}{In(}} [\ QInspire\ ,\ IBMQ\ ]\ QDF\ Circuit\ {\color{orange}{)&nbsp;&#8594;&nbsp;}} {\color{orange}{QFLCS}} {\color{orange}{&nbsp;&#8594;&nbsp; Out(}}{ [\ QInpire\ ,\ IBMQ\ ]\ QDF\ Circuit\ Data\ }{\color{orange}{)&nbsp;&#8594;&nbsp; In(}}{\color{green}{QFLCC}}{\color{orange}{)&nbsp;&#8594;&nbsp; Out(&#8628;)}}$|
 |<kbd> ![QDF_Circuit_Sim and Dataset Analysis](QDF_circuit_screenshot.jpg) </kbd>|
-|*$[IBM , QInspire]$ QDF Circuit Simulation and Dataset Analysis by QFLCS and QFLCC*|
+|$[IBM , QInspire] QDF Circuit Simulation and Dataset Analysis by QFLCS and QFLCC$|
 
 * We recommend downloading the entire <code><root/...></code> directory according to the folder structure and run <code>[QAI-LCode_QFLCC.py]</code> in VSC with python latest packages installed for Windows OS (the QDF game is developed for Windows OS, yet parts of the code for sound and display can be rewritten for Linux OS), e.g. <code>"winsound"</code> package as a compatible option. Other packages are needed to be installed or code rewritten for <code>"sound"</code> and <code>"display"</code> compatibility under other operating systems.
 * The <code>[QAI-LCode_QFLCC.py]</code> file has a Pygame GUI and other packages suited for local machine runs, rather than running this file on the [Code Ocean](https://doi.org/10.24433/CO.9905505.v2) platform which could take hours to compile and run a compatible program/game with packages. 
