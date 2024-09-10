@@ -9,7 +9,7 @@ Technical: [![On GitHub](https://img.shields.io/badge/GitHub-SoftwareImpacts-009
 
 Social: [![Author's LinkedIn](https://img.shields.io/badge/LinkedIn-blue.svg?style=flat&amp;logo=linkedin&logoColor=white)](http://ca.linkedin.com/pub/philip-baback-alipour/b/b13/b35)
 
-Academic: [![Author's ORCID](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png?style=flat&amp;logo=linkedin&logoColor=white)](https://orcid.org/0000-0003-1037-018X)
+Academic: [![Author's ORCID](https://img.shields.io/badge/ORCID-0000--0003--1037--018X-A6CE39?logo=orcid)](https://orcid.org/0000-0003-1037-018X)
 <hr/>
 
 This repository contains the code for the QFLCS (Quantum Field Lens Coding Simulator) as part of its algorithm, QFLCA (Quantum Field Lens Coding Algorithm) project.
