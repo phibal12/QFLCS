@@ -29,13 +29,13 @@ The QFLCS program analyzes the measurement outcome probability ($\cal P$) data f
 - **b)** a particle state in an SF, an ES relative to a GS from (a.), prior to its transform into a QDF, and, <br>
 - **c)** the expected transformation of fields (ES $\longleftrightarrow$ GS) and their $⟨{\frak M}(\cal{P}, \psi_{ij})⟩$, as in Sec. 3 of the published article.
 
-<kbd> ![k-trans-QDF-P-measure-IN](k-trans-QDF-P-measure-IN.png) </kbd>
-
+|<kbd> ![k-trans-QDF-P-measure-IN](k-trans-QDF-P-measure-IN.png) </kbd>|
+|:--:| 
+|*QDF Circuit Measured from a Sum ($\Sigma$) of Single Field (SF) to QDF Transformation of Bit-pairs*|
 This repository's file structure is a sample mirror of the Mendeley repository file structure of v3+ at https://data.mendeley.com/datasets/gf2s8jkdjf/3, but with a much smaller file size for efficient download and use of the QFLCA project's code without the documentation (website) and demo video files. Certain small updates have been made in the main python file uploaded on Code Ocean for minor debugging purposes at https://doi.org/10.24433/CO.9905505.v2 or [Code Ocean](https://doi.org/10.24433/CO.9905505.v2). 
 
 * QFLCA project's code without the documentation (website) and demo video files can be found under the <code></code/root/lab/sim/QFLCC classifiers></code> directory in <code></code/root/lab/sim/QFLCC classifiers/docs></code> and <code></code/root/lab/sim/QFLCC classifiers/site></code> folders at https://doi.org/10.24433/CO.9905505.v2 or [Code Ocean](https://doi.org/10.24433/CO.9905505.v2).
 * The main file is <code></code/root/lab/sim/QFLCC classifiers/QAI-LCode_QFLCC></code> which imports and executes the <code></code/root/lab/sim/QFLCC classifiers/QDF-LCode_IBMQ-2024-codable></code> or <code>QDF-LCode_IBMQ-2024</code> code for the simulation under Win OS or Linux OS.
-
 
 |<kbd> ![QInspire QDF_Circuit Experiment](<./root/lab/sim/QFLCC classifiers/QI_Exp_05.png>) </kbd>|
 |:--:| 
@@ -45,7 +45,7 @@ This repository's file structure is a sample mirror of the Mendeley repository f
 |*QInpire QDF Circuit Experiment Results*|
 |<kbd> ![IBM QDF_Circuit_Experiment](<./root/lab/sim/QFLCC classifiers/QDFCircuit_2023.png>) </kbd>|
 |:--:| 
-|*QInpire QDF_Circuit Experiment*|
+|*QInpire QDF Circuit Experiment*|
 |<kbd> ![QDF_Circuit_and Dataset Analysis](QDF_circuit_screenshot.jpg) </kbd>|
 |:--:| 
 |*IBM/QInspire QDF Circuit and Dataset Analysis by QFLCS*|
@@ -63,15 +63,15 @@ A short presentation explaining these points are given in the <code></site/asset
   
 <kbd> ![QDF Game Scores Screenshot](QDF_game_screenshot.jpg) </kbd>
 
-* Graphical Abstract files can be accessed from <code></code/root></code>. The following figure is a downloadable High-Res Graphical Abstract of the published QFLCS article in Software Impacts, Elsevier J, at: https://www.sciencedirect.com/science/article/pii/S2665963824000915
+* Graphical Abstract files can be accessed from <code></code/root></code>. The following figure is a downloadable High-Res Graphical Abstract of the published QFLCS article in Software Impacts, Elsevier BV, at: https://www.sciencedirect.com/science/article/pii/S2665963824000915
  
 <kbd> ![QFLCS Graphical Abstract (SIMPAC journal)](./root/SIMPAC_GAbstract.jpg) </kbd>
 
-The following figure, is a downloadable High-Res Graphical Abstract of the published QFLCA article in Data in Brief, Elsevier J, at: https://www.sciencedirect.com/science/article/pii/S2352340924007546
+The following figure, is a downloadable High-Res Graphical Abstract of the published QFLCA article in Data in Brief, Elsevier BV, at: https://www.sciencedirect.com/science/article/pii/S2352340924007546
 
 <kbd> ![QFLCA Graphical Abstract (DIB journal)](./root/DIB_GAbstract.png) </kbd>
 
-The following figure is a downloadable High-Res Graphical Abstract of the published QFLCA article in MethodsX, Elsevier J, at: https://www.sciencedirect.com/science/article/pii/S221501612300136X
+The following figure is a downloadable High-Res Graphical Abstract of the published QFLCA article in MethodsX, Elsevier BV, at: https://www.sciencedirect.com/science/article/pii/S221501612300136X
 
 <kbd> ![QFLCA Graphical Abstract (MethodsX journal)](./root/MethX_GAbstract.png) </kbd>
 
