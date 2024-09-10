@@ -14,7 +14,7 @@ Academic: [![Author's ORCID](https://img.shields.io/badge/ORCID-0000--0003--1037
 Legal: [![CC BY 4.0][cc-by-shield]][cc-by]
 <hr/>
 
-<mark>This repository</mark> contains the code for the QFLCS (Quantum Field Lens Coding Simulator) as part of its algorithm, QFLCA (Quantum Field Lens Coding Algorithm) project.
+This repository contains the code for the QFLCS (Quantum Field Lens Coding Simulator) as part of its algorithm, QFLCA (Quantum Field Lens Coding Algorithm) project.
 The project repositories are available at https://data.mendeley.com/datasets/gf2s8jkdjf/3 and https://doi.org/10.24433/CO.9905505.v2, which include the code, project website documentation, and demo video files.
 
 <kbd> ![1D QDF circuit](1D-qdf-circuit.gif) </kbd> 
@@ -46,7 +46,7 @@ This repository's file structure is a sample mirror of the Mendeley repository f
 |*QInpire QDF Circuit Experiment Results*|
 |<kbd> ![IBM QDF_Circuit_Experiment](<./root/lab/sim/QFLCC classifiers/QDFCircuit_2023.png>) </kbd>|
 |*IBM QDF Circuit Experiment*|
-|${\color{orange}{In(}}{ QInspire\ ,\ IBMQ\ }{\color{orange}{)&nbsp;&#8594;&nbsp;}} {\color{orange}{QFLCS}} {\color{orange}{&nbsp;&#8594;&nbsp; Out(}}{ QInpire\ QDF\ Circuit\ Data\ ,\ IBM\ QDF\ Circuit\ Data\ })&nbsp;&#8594;&nbsp; {\color{orange}{In(}}{\color{green}{QFLCC}}{\color{orange}{)&nbsp;&#8594;&nbsp; Out(&#8628;)}}$|
+|${\color{orange}{In(}}{ QInspire\ ,\ IBMQ\ }{\color{orange}{)&nbsp;&#8594;&nbsp;}} {\color{orange}{<code>QFLCS</code>}} {\color{orange}{&nbsp;&#8594;&nbsp; Out(}}{ QInpire\ QDF\ Circuit\ Data\ ,\ IBM\ QDF\ Circuit\ Data\ })&nbsp;&#8594;&nbsp; {\color{orange}{In(}}{\color{green}{QFLCC}}{\color{orange}{)&nbsp;&#8594;&nbsp; Out(&#8628;)}}$|
 |<kbd> ![QDF_Circuit_Sim and Dataset Analysis](QDF_circuit_screenshot.jpg) </kbd>|
 |*IBM_QInspire QDF Circuit Simulation and Dataset Analysis by QFLCS and QFLCC*|
 
