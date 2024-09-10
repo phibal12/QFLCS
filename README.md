@@ -14,7 +14,7 @@ Academic: [![Author's ORCID](https://img.shields.io/badge/ORCID-0000--0003--1037
 Legal: [![CC BY 4.0][cc-by-shield]][cc-by]
 <hr/>
 
-{==This repository==} contains the code for the QFLCS (Quantum Field Lens Coding Simulator) as part of its algorithm, QFLCA (Quantum Field Lens Coding Algorithm) project.
+<mark>This repository</mark> contains the code for the QFLCS (Quantum Field Lens Coding Simulator) as part of its algorithm, QFLCA (Quantum Field Lens Coding Algorithm) project.
 The project repositories are available at https://data.mendeley.com/datasets/gf2s8jkdjf/3 and https://doi.org/10.24433/CO.9905505.v2, which include the code, project website documentation, and demo video files.
 
 <kbd> ![1D QDF circuit](1D-qdf-circuit.gif) </kbd> 
