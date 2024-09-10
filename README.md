@@ -1,11 +1,11 @@
 # QFLCS: Quantum Field Lens Coding Simulator  
-<div style="text-align: right"> Technical: [![On GitHub](https://img.shields.io/badge/GitHub-SoftwareImpacts-009688.svg?style=flat&amp;logo=github)](https://github.com/SoftwareImpacts/SIMPAC-2024-159)
+Technical: [![On GitHub](https://img.shields.io/badge/GitHub-SoftwareImpacts-009688.svg?style=flat&amp;logo=github)](https://github.com/SoftwareImpacts/SIMPAC-2024-159)
 [![Mendeley Badge](https://img.shields.io/badge/Mendeley%20Data-v.3+-red.svg)](https://data.mendeley.com/datasets/gf2s8jkdjf/3)
 [![VSCode Badge](https://img.shields.io/badge/Code%20in%20VS%20Code-v.1.3-blue.svg?style=flat&amp;logo=vscode)](https://codeocean.com/capsule/6853712/tree/v2/code/root/lab/sim/QFLCC%20classifiers/QAI-LCode_QFLCC.py)
 [![Code in Python v>3.1](https://img.shields.io/badge/Python-v.3+-3776AB.svg?style=flat&amp;logo=python&amp;logoColor=white)](https://codeocean.com/capsule/6853712/tree/v2/code/root/lab/sim/QFLCC%20classifiers/QDF-LCode_IBMQ-2024-codable.py)
 [![Jupyter Lab](https://img.shields.io/badge/Jupyter-Lab-F37626.svg?style=flat&amp;logo=Jupyter)](https://codeocean.com/capsule/6853712/tree/v2/code/root/lab/sim/QFLCC%20classifiers/QDF-LCode_IBMQ-2024-raw-codable.ipynb)
 [![doi.org/10.24433/CO.9905505.v2](https://codeocean.com/codeocean-assets/badge/open-in-code-ocean.svg)](https://codeocean.com/capsule/6853712/tree/v2)
-[![CC BY 4.0][cc-by-shield]][cc-by] </div>  
+[![CC BY 4.0][cc-by-shield]][cc-by]
 
 Social: [![Author's LinkedIn](https://img.shields.io/badge/LinkedIn-blue.svg?style=flat&amp;logo=linkedin&logoColor=white)](http://ca.linkedin.com/pub/philip-baback-alipour/b/b13/b35)
 
