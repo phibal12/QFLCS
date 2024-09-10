@@ -40,10 +40,10 @@ This repository's file structure is a sample mirror of the Mendeley repository f
 
 |<kbd> ![QInspire QDF_Circuit Experiment](<./root/lab/sim/QFLCC classifiers/QI_Exp_03.png>) </kbd>|
 |:--:| 
-|*QInpire QDF Circuit Experiment*|
+|*QInspire QDF Circuit Experiment*|
 |&#8597;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8597;|
 |<kbd> ![QInspire QDF_Circuit_Experiment Results](<./root/lab/sim/QFLCC classifiers/QI_Exp_03_H.png>) </kbd>|
-|*QIsnpire QDF Circuit Experiment Results*|
+|*QInspire QDF Circuit Experiment Results*|
 |<kbd> ![IBM QDF_Circuit_Experiment](<./root/lab/sim/QFLCC classifiers/QDFCircuit_2023.png>) </kbd>|
 |*IBM QDF Circuit Experiment*|
 |${\color{orange}{In(}} [\ QInspire\ ,\ IBMQ\ ]\ QDF\ Circuit\ {\color{orange}{)&nbsp;&#8594;&nbsp;}} {\color{orange}{QFLCS}} {\color{orange}{&nbsp;&#8594;&nbsp; Out(}}{ [\ QInspire\ ,\ IBMQ\ ]\ QDF\ Circuit\ Data\ }{\color{orange}{)&nbsp;&#8594;&nbsp; In(}}{\color{green}{QFLCC}}{\color{orange}{)&nbsp;&#8594;&nbsp; Out(&#8628;)}}$|
