@@ -41,17 +41,11 @@ This repository's file structure is a sample mirror of the Mendeley repository f
 |<kbd> ![QInspire QDF_Circuit Experiment](<./root/lab/sim/QFLCC classifiers/QI_Exp_05.png>) </kbd>|
 |:--:| 
 |*QInpire QDF Circuit Experiment*|
-
 |<kbd> ![QInspire QDF_Circuit_Experiment Results](<./root/lab/sim/QFLCC classifiers/QI_Exp_05_H.png>) </kbd>|
-|:--:| 
 |*QInpire QDF Circuit Experiment Results*|
-
 |<kbd> ![IBM QDF_Circuit_Experiment](<./root/lab/sim/QFLCC classifiers/QDFCircuit_2023.png>) </kbd>|
-|:--:| 
 |*IBM QDF Circuit Experiment*|
-
 |<kbd> ![QDF_Circuit_and Dataset Analysis](QDF_circuit_screenshot.jpg) </kbd>|
-|:--:| 
 |*IBM/QInspire QDF Circuit and Dataset Analysis by QFLCS*|
 
 * We recommend downloading the entire <code><root/...></code> directory according to the folder structure and run <code>[QAI-LCode_QFLCC.py]</code> in VSC with python latest packages installed for Windows OS (the QDF game is developed for Windows OS, yet parts of the code for sound and display can be rewritten for Linux OS), e.g. <code>"winsound"</code> package as a compatible option. Other packages are needed to be installed or code rewritten for <code>"sound"</code> and <code>"display"</code> compatibility under other operating systems.
