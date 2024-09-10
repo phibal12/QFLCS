@@ -66,7 +66,10 @@ A short presentation explaining these points are given in the <code></site/asset
 |:--:| 
 |*QDF Game Scores on Wins and Losses of the User/Gamer based on the Input Samples by the QFLCS*|
 
-* Graphical Abstract files can be accessed from <code></code/root></code>. The following figure is a downloadable High-Res Graphical Abstract of the published QFLCS article in Software Impacts, Elsevier BV, at: https://www.sciencedirect.com/science/article/pii/S2665963824000915
+* Graphical Abstract files can be accessed from <code></code/root></code>.
+
+# QFLCS Project Summary
+The following figure is a downloadable High-Res Graphical Abstract of the published QFLCS article in Software Impacts, Elsevier BV, at: https://www.sciencedirect.com/science/article/pii/S2665963824000915
  
 |<kbd> ![QFLCS Graphical Abstract (SIMPAC journal)](./root/SIMPAC_GAbstract.jpg) </kbd>|
 |:--:| 
