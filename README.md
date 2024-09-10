@@ -33,11 +33,20 @@ This repository's file structure is a sample mirror of the Mendeley repository f
 
 * QFLCA project's code without the documentation (website) and demo video files can be found under the <code></code/root/lab/sim/QFLCC classifiers></code> directory in <code></code/root/lab/sim/QFLCC classifiers/docs></code> and <code></code/root/lab/sim/QFLCC classifiers/site></code> folders at https://doi.org/10.24433/CO.9905505.v2 or [Code Ocean](https://doi.org/10.24433/CO.9905505.v2).
 * The main file is <code></code/root/lab/sim/QFLCC classifiers/QAI-LCode_QFLCC></code> which imports and executes the <code></code/root/lab/sim/QFLCC classifiers/QDF-LCode_IBMQ-2024-codable></code> or <code>QDF-LCode_IBMQ-2024</code> code for the simulation under Win OS or Linux OS.
-<kbd> ![QI QDF_Circuit Experiment](<./root/lab/sim/QFLCC classifiers/QI_Exp_03.png>) </kbd>
-<kbd> ![QI QDF_Circuit_Experiment Results](<./root/lab/sim/QFLCC classifiers/QI_Exp_03_H.png>) </kbd>
-<kbd> ![IBM QDF_Circuit_Experiment](<./root/lab/sim/QFLCC classifiers/QDFCircuit_2023.png>) </kbd>
 
+
+|<kbd> ![QInspire QDF_Circuit Experiment](<./root/lab/sim/QFLCC classifiers/QI_Exp_05.png>) </kbd>|
+|:--:| 
+|*QInpire QDF_Circuit Experiment*|
+|<kbd> ![QInspire QDF_Circuit_Experiment Results](<./root/lab/sim/QFLCC classifiers/QI_Exp_05_H.png>) </kbd>|
+|:--:| 
+|*QInpire QDF_Circuit Experiment Results*|
+<kbd> ![IBM QDF_Circuit_Experiment](<./root/lab/sim/QFLCC classifiers/QDFCircuit_2023.png>) </kbd>
+|:--:| 
+|*QInpire QDF_Circuit Experiment*|
 <kbd> ![QDF_Circuit_and Dataset Analysis](QDF_circuit_screenshot.jpg) </kbd>
+|:--:| 
+|*IBM/QInspire QDF Circuit and Dataset Analysis by QFLCS*|
 * We recommend downloading the entire <code><root/...></code> directory according to the folder structure and run <code>[QAI-LCode_QFLCC.py]</code> in VSC with python latest packages installed for Windows OS (the QDF game is developed for Windows OS, yet parts of the code for sound and display can be rewritten for Linux OS), e.g. <code>"winsound"</code> package as a compatible option. Other packages are needed to be installed or code rewritten for <code>"sound"</code> and <code>"display"</code> compatibility under other operating systems.
 * The <code>[QAI-LCode_QFLCC.py]</code> file has a Pygame GUI and other packages suited for local machine runs, rather than running this file on the [Code Ocean](https://doi.org/10.24433/CO.9905505.v2) platform which could take hours to compile and run a compatible program/game with packages. 
 However, the <code>[QDF-LCode_IBMQ-2024-codable.py]</code> can be run here as the core of the simulation program simulating the QDF circuit. 
