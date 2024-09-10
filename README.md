@@ -46,7 +46,7 @@ This repository's file structure is a sample mirror of the Mendeley repository f
 |*QInpire QDF Circuit Experiment Results*|
 |<kbd> ![IBM QDF_Circuit_Experiment](<./root/lab/sim/QFLCC classifiers/QDFCircuit_2023.png>) </kbd>|
 |*IBM QDF Circuit Experiment*|
-|*IN({QInspire, IBMQ})&nbsp;&#8594;&nbsp; QFLCS &nbsp;&#8594;&nbsp; OUT({QInpire QDF Circuit Data, IBM QDF Circuit Data})&nbsp;&#8594;&nbsp; IN(QFLCC) OUT(&#8628;)*|
+|*$\textcolor{red}{In}$({ QInspire, IBMQ })&nbsp;&#8594;&nbsp; QFLCS &nbsp;&#8594;&nbsp; Out({ QInpire QDF Circuit Data, IBM QDF Circuit Data })&nbsp;&#8594;&nbsp; In(QFLCC)&nbsp;&#8594;&nbsp;  Out(&#8628;)*|
 |<kbd> ![QDF_Circuit_Sim and Dataset Analysis](QDF_circuit_screenshot.jpg) </kbd>|
 |*IBM_QInspire QDF Circuit Simulation and Dataset Analysis by QFLCS and QFLCC*|
 
