@@ -1,5 +1,5 @@
 <details>
-  <summary> <script type="text/javascript" id="MathJax-script" async
+  <summary> </summary> <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 <script>
@@ -9,7 +9,7 @@
       displayMath: [['$$', '$$'], ['\\[', '\\]']]
     }
   };
-</script> </summary></details>
+</script> </details>
 
 # QFLCS: Quantum Field Lens Coding Simulator  
 Technical: [![On GitHub](https://img.shields.io/badge/GitHub-SoftwareImpacts-009688.svg?style=flat&amp;logo=github)](https://github.com/SoftwareImpacts/SIMPAC-2024-159)
