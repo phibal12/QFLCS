@@ -13,9 +13,7 @@ Social: [![GitHub Profile](https://img.shields.io/badge/GitHub-phibal12%20profil
 
 Academic: [![Author's ORCID](https://img.shields.io/badge/ORCID-0000--0003--1037--018X-A6CE39?logo=orcid)](https://orcid.org/0000-0003-1037-018X)
 
-Legal: [![CC BY 4.0][cc-by-shield]][cc-by]
-
-Math Mode: ![Made with MathJax](https://img.shields.io/badge/MathJax-v.4-green.svg)<details style="display: inline;"><summary style="display: inline;">  [https://www.mathjax.org](https://www.mathjax.org)    </summary> <script type="text/javascript" id="MathJax-script" async
+Math Mode: ![Made with MathJax](https://img.shields.io/badge/MathJax-v.4-green.svg)<details style="display: inline;"><summary style="display: inline;"> Deatails at [https://www.mathjax.org](https://www.mathjax.org)    </summary> <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 <script>
@@ -27,6 +25,8 @@ Math Mode: ![Made with MathJax](https://img.shields.io/badge/MathJax-v.4-green.s
   };
 </script> </details>
 <hr/>
+
+Legal: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This repository contains the code for the QFLCS (Quantum Field Lens Coding Simulator) as part of its algorithm, QFLCA (Quantum Field Lens Coding Algorithm) project.
 The project repositories are available at https://data.mendeley.com/datasets/gf2s8jkdjf/3 and https://doi.org/10.24433/CO.9905505.v2, which include the code, project website documentation, and demo video files.
