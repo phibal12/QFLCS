@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # QFLCS: Quantum Field Lens Coding Simulator  
 Technical: [![On GitHub](https://img.shields.io/badge/GitHub-SoftwareImpacts-009688.svg?style=flat&amp;logo=github)](https://github.com/SoftwareImpacts/SIMPAC-2024-159)
 [![Mendeley Badge](https://img.shields.io/badge/Mendeley_Data-v.3%2B-%239D1620?logo=mendeley&logoColor=%239D1620
@@ -145,3 +141,14 @@ This work is licensed under a
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
+
+<script type="text/javascript" id="MathJax-script" async
+  src="https://jsdelivr.net">
+</script>
+<script>
+  window.MathJax = {
+    tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+  };
+</script>
+
