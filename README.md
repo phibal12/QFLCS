@@ -75,7 +75,7 @@ The QFLCA project is going through stages of development resulting in software p
 
 * The following figure is a downloadable High-Res Graphical Abstract of the published QFLCS article in Software Impacts, Elsevier BV, at: https://www.sciencedirect.com/science/article/pii/S2665963824000915
  
-|<kbd> ![QFLCS Graphical Abstract (SIMPAC journal)](./root/SIMPAC_GAbstract.jpg) </kbd>|
+|<kbd>  <img src="./root/SIMPAC_GAbstract.jpg" title="QFLCS Graphical Abstract (SIMPAC journal)" /> </kbd>|
 |:--:| 
 |*Graphical Abstract of QFLCS*|
 
@@ -141,14 +141,3 @@ This work is licensed under a
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
-
-
-<script type="text/javascript" id="MathJax-script" async
-  src="https://jsdelivr.net">
-</script>
-<script>
-  window.MathJax = {
-    tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
-  };
-</script>
-
