@@ -12,7 +12,8 @@ Social: [![GitHub Profile](https://img.shields.io/badge/GitHub-phibal12%20profil
 [![Author's LinkedIn](https://img.shields.io/badge/LinkedIn-blue.svg?style=flat&amp;logo=linkedin&logoColor=white)](http://ca.linkedin.com/pub/philip-baback-alipour/b/b13/b35)
 
 Academic: [![Author's ORCID](https://img.shields.io/badge/ORCID-0000--0003--1037--018X-A6CE39?logo=orcid)](https://orcid.org/0000-0003-1037-018X)
-Math Mode: ![Made with MathJax](https://img.shields.io/badge/MathJax-v.4-009688.svg)<details style="display: inline;"><summary style="display: inline;"> Deatails at [https://www.mathjax.org](https://www.mathjax.org)    </summary> <script type="text/javascript" id="MathJax-script" async
+
+Math Mode: ![Made with MathJax](https://img.shields.io/badge/MathJax-v.4.1.1-009688.svg)<details style="display: inline;"><summary style="display: inline;"> Deatails at [https://www.mathjax.org](https://www.mathjax.org)    </summary> <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 <script>
