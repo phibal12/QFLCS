@@ -9,6 +9,10 @@
     }
   };
 </script> -->
+---
+layout: default
+---
+
 
 
 # QFLCS: Quantum Field Lens Coding Simulator  
