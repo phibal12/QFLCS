@@ -1,16 +1,3 @@
-<details>
-  <summary> </summary> <script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-<script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']]
-    }
-  };
-</script> </details>
-
 # QFLCS: Quantum Field Lens Coding Simulator  
 Technical: [![On GitHub](https://img.shields.io/badge/GitHub-SoftwareImpacts-009688.svg?style=flat&amp;logo=github)](https://github.com/SoftwareImpacts/SIMPAC-2024-159)
 [![Mendeley Badge](https://img.shields.io/badge/Mendeley_Data-v.3%2B-%239D1620?logo=mendeley&logoColor=%239D1620
@@ -27,6 +14,19 @@ Social: [![GitHub Profile](https://img.shields.io/badge/GitHub-phibal12%20profil
 Academic: [![Author's ORCID](https://img.shields.io/badge/ORCID-0000--0003--1037--018X-A6CE39?logo=orcid)](https://orcid.org/0000-0003-1037-018X)
 
 Legal: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+<details>
+  <summary> Math Mode Used: </summary> <script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+</script> </details>
 <hr/>
 
 This repository contains the code for the QFLCS (Quantum Field Lens Coding Simulator) as part of its algorithm, QFLCA (Quantum Field Lens Coding Algorithm) project.
