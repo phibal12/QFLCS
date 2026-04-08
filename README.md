@@ -44,7 +44,7 @@ This repository's file structure is a sample mirror of the Mendeley repository f
 |:--:| 
 |*QInspire QDF Circuit Experiment*|
 |&#8597;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8597;|
-|<kbd> ![QInspire QDF_Circuit_Experiment Results](<./root/lab/sim/QFLCC classifiers/QI_Exp_03_H.png>) </kbd>|
+|<kbd> ![QInspire QDF_Circuit_Experiment Results](</QI_Exp_03_H.png>) </kbd>|
 |*QInspire QDF Circuit Experiment Results*|
 |<kbd> ![IBM QDF_Circuit_Experiment](<./root/lab/sim/QFLCC classifiers/QDFCircuit_2023.png>) </kbd>|
 |*IBM QDF Circuit Experiment*|
