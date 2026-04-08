@@ -13,7 +13,7 @@ Social: [![GitHub Profile](https://img.shields.io/badge/GitHub-phibal12%20profil
 
 Academic: [![Author's ORCID](https://img.shields.io/badge/ORCID-0000--0003--1037--018X-A6CE39?logo=orcid)](https://orcid.org/0000-0003-1037-018X)
 
-Math Mode: ![Made with MathJax](https://img.shields.io/badge/MathJax-v.4.1.1-009688.svg)<details><summary> Details at [https://www.mathjax.org](https://www.mathjax.org)</summary> <script type="text/javascript" id="MathJax-script" async
+Math Mode: ![Made with MathJax](https://img.shields.io/badge/Made_with_MathJax-v.4.1.1-009688.svg)<details><summary> Details at [https://www.mathjax.org](https://www.mathjax.org)</summary> <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 <script>
