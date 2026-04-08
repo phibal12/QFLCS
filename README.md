@@ -16,7 +16,7 @@ Academic: [![Author's ORCID](https://img.shields.io/badge/ORCID-0000--0003--1037
 Legal: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 <details>
-  <summary> Math Mode Used: ![MathJax](https://shields.io)
+  <summary> Math Mode Used: [![MathJax](https://img.shields.io/npm/dm/mathjax)](https://img.shields.io/npm/dm/mathjax)
 </summary> <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
