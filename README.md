@@ -9,7 +9,7 @@
       displayMath: [['$$', '$$'], ['\\[', '\\]']]
     }
   };
-</script> </summary>
+</script> </summary></details>
 
 # QFLCS: Quantum Field Lens Coding Simulator  
 Technical: [![On GitHub](https://img.shields.io/badge/GitHub-SoftwareImpacts-009688.svg?style=flat&amp;logo=github)](https://github.com/SoftwareImpacts/SIMPAC-2024-159)
