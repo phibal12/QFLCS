@@ -15,8 +15,7 @@ Academic: [![Author's ORCID](https://img.shields.io/badge/ORCID-0000--0003--1037
 
 Legal: [![CC BY 4.0][cc-by-shield]][cc-by]
 
-<details> Math Mode: ![Made with MathJax](https://img.shields.io/badge/Made%20with-MathJax-blue.svg)
-  <summary> </summary> <script type="text/javascript" id="MathJax-script" async
+Math Mode: ![Made with MathJax](https://img.shields.io/badge/Made%20with-MathJax-blue.svg)<details><summary> </summary> <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 <script>
