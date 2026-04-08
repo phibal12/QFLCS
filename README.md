@@ -93,13 +93,13 @@ The QFLCA project is going through stages of development resulting in software p
 
 * The following figure, is a downloadable High-Res Graphical Abstract of the published QFLCA article in Data in Brief, Elsevier BV, at: https://www.sciencedirect.com/science/article/pii/S2352340924007546
 
-|<kbd> ![QFLCA Graphical Abstract (DIB journal)](./root/DIB_GAbstract.png) </kbd>|
+|<kbd>  <img src="./root/DIB_GAbstract.png" title="QFLCA Graphical Abstract (DIB journal)" /> </kbd>|
 |:--:| 
 |*Graphical Abstract of QFLCA Dataset*|
 
 * The following figure is a downloadable High-Res Graphical Abstract of the published QFLCA article in MethodsX, Elsevier BV, at: https://www.sciencedirect.com/science/article/pii/S221501612300136X
 
-|<kbd> ![QFLCA Graphical Abstract (MethodsX journal)](./root/MethX_GAbstract.png) </kbd>|
+|<kbd>  <img src="./root/MethX_GAbstract.png" title="QFLCA Graphical Abstract (MethodsX journal)" /> </kbd>|
 |:--:| 
 |*Graphical Abstract of QFLCA Model and Method*|
 
