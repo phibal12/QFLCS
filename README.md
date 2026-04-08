@@ -1,5 +1,5 @@
 ---
-layout: default
+_layouts: default
 ---
 
 # QFLCS: Quantum Field Lens Coding Simulator  
