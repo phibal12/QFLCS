@@ -4,83 +4,81 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <!-- This line tells Jekyll to pull in your theme's native fonts and layout scripts -->
   {% if site.head %}{{ site.head }}{% endif %}
 
   <style>
-  /* 1. SCREEN VIEW (Dark theme setup) */
-  :root {
-    color-scheme: dark;
-  }
-  
-  html, body {
-    background-color: #0d1117 !important;
-    color: #c9d1d9 !important;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
-  }
-
-  .markdown-body, #main_content_wrap, .wrapper, .container-lg {
-    background-color: #0d1117 !important;
-    color: #c9d1d9 !important;
-  }
-
-  h1, h2, h3, h4, h5, h6, p, li, span, code, a {
-    color: #f0f6fc !important;
-  }
-
-  /* 2. SPECIFIC LAYOUT ALIGNMENTS */
-  /* Keeps all normal content rows, badges, and copyrights left-aligned */
-  div.content-wrapper {
-    max-width: 1012px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: left !important;
-  }
-
-  /* Forces images INSIDE tables/kbd matrices to center nicely */
-  table img, td img, kbd img {
-    max-width: 100% !important;
-    height: auto !important;
-    display: block !important;
-    margin: 0 auto !important; /* Centers image assets specifically inside their cells */
-  }
-
-  /* Keeps standard document badges or inline graphics left-aligned */
-  p img, p a img {
-    display: inline-block !important;
-    margin: 0 !important;
-  }
-
-  /* 3. PRINT LAYER (Flipped configurations) */
-  @media print {
+    /* 1. DIGITAL VIEW OVERVIEW */
     :root {
-      color-scheme: light;
+      color-scheme: dark;
     }
-    html, body, .markdown-body, #main_content_wrap, .wrapper, .container-lg {
-      background-color: #ffffff !important;
-      background-image: none !important;
-      color: #000000 !important;
+    
+    html, body {
+      background-color: #0d1117 !important;
+      color: #c9d1d9 !important;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
     }
+
+    .markdown-body, #main_content_wrap, .wrapper, .container-lg {
+      background-color: #0d1117 !important;
+      color: #c9d1d9 !important;
+    }
+
     h1, h2, h3, h4, h5, h6, p, li, span, code, a {
-      color: #000000 !important;
+      color: #f0f6fc !important;
     }
+
+    /* 2. LAYOUT GRID RESET & POSITIONING CONTROL */
+    div.content-wrapper {
+      max-width: 1012px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: left !important; /* Forces badges and copyrights to stay left-aligned */
+    }
+
+    /* Target ONLY layout items housed inside structured matrix wrappers */
     table img, td img, kbd img {
       max-width: 100% !important;
       height: auto !important;
-      page-break-inside: avoid;
+      display: block !important;
+      margin: 0 auto !important; /* Explicit centering inside table blocks */
     }
-    * {
-      -webkit-print-color-adjust: exact !important;
-      print-color-adjust: exact !important;
-    }
-  }
-</style>
 
+    /* Bypasses general line spacing for normal paragraph inline decorations */
+    p img, p a img, .badge img {
+      display: inline-block !important;
+      margin: 0 !important;
+    }
+
+    /* 3. PRINT SYSTEM INVERSIONS */
+    @media print {
+      :root {
+        color-scheme: light;
+      }
+      html, body, .markdown-body, #main_content_wrap, .wrapper, .container-lg {
+        background-color: #ffffff !important;
+        background-image: none !important;
+        color: #000000 !important;
+      }
+      h1, h2, h3, h4, h5, h6, p, li, span, code, a {
+        color: #000000 !important;
+      }
+      table img, td img, kbd img {
+        max-width: 100% !important;
+        height: auto !important;
+        page-break-inside: avoid;
+      }
+      * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+      }
+    }
+  </style>
 </head>
 <body>
+
   <div class="content-wrapper">
     {{ content }} 
   </div>
-</body>
 
+</body>
 </html>
