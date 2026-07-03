@@ -4,41 +4,53 @@
   <!-- Keep all your existing head elements, links, and meta tags exactly as they are -->
 
 <style>
-  /* Screen styles: Safely change colors using CSS variables without affecting typography or image layouts */
+  /* 1. SCREEN VIEW (Dark theme) */
   :root {
     color-scheme: dark;
-    --background-color: #000000 !important;
-    --text-color: #ffffff !important;
-    --heading-color: #ffffff !important;
   }
   
-  html, body, .site-outer, .site-inner, #main_content_wrap {
-    background: #000000 !important;
+  /* Selectively target backgrounds without touching block dimensions */
+  html, body, #main_content_wrap, .site-outer, .site-inner, .wrapper {
+    background-color: #000000 !important;
+    background-image: none !important;
+  }
+  
+  /* Apply screen text colors strictly to text nodes without overriding tag layouts */
+  h1, h2, h3, h4, h5, h6, p, li, span, code, a {
     color: #ffffff !important;
   }
 
-  /* Force print inversion ONLY for colors, completely leaving structural CSS alone */
+  /* Explicitly protect your theme's native image scaling layout boundaries */
+  img, svg, picture {
+    max-width: 100% !important;
+    height: auto !important;
+    width: auto; /* Fallback to natural/theme defined width dimensions */
+  }
+
+  /* 2. PRINT VIEW (Flipped colors) */
   @media print {
     :root {
       color-scheme: light;
-      --background-color: #ffffff !important;
-      --text-color: #000000 !important;
-      --heading-color: #000000 !important;
     }
-    html, body, .site-outer, .site-inner, #main_content_wrap {
-      background: #ffffff !important;
+    html, body, #main_content_wrap, .site-outer, .site-inner, .wrapper {
+      background-color: #ffffff !important;
+      background-image: none !important;
+    }
+    h1, h2, h3, h4, h5, h6, p, li, span, code, a {
       color: #000000 !important;
     }
-    h1, h2, h3, h4, h5, h6, p, li, span, code {
-      color: #000000 !important;
+    img, svg, picture {
+      max-width: 100% !important;
+      height: auto !important;
+      page-break-inside: avoid; /* Prevents images from awkwardly splitting in half during print */
     }
-    /* Prevent browsers from dropping background adjustments during rendering layers */
     * {
       -webkit-print-color-adjust: exact !important;
       print-color-adjust: exact !important;
     }
   }
 </style>
+
 </head>
 <body>
 
