@@ -54,17 +54,19 @@ This repository's file structure is a sample mirror of the Mendeley repository f
 
 
 
-|<kbd> ![QInspire QDF_Circuit Experiment](./QI_Exp_03.png) </kbd>|
-|:--:| 
-|*QInspire QDF Circuit Experiment*|
-|↕&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↕|
-|<kbd> ![QInspire QDF_Circuit_Experiment Results](./QI_Exp_03_H.png) </kbd>|
-|*QInspire QDF Circuit Experiment Results*|
-|<kbd> ![IBM QDF_Circuit_Experiment](./root/lab/sim/QFLCC%20classifiers/QDFCircuit_2023.png) </kbd>|
-|*IBM QDF Circuit Experiment*|
-|${\color{orange}{In(}} {\color{red}{[\ QInspire\ ,\ IBMQ\ ]\ } }QDF\ Circuit\ {\color{orange}{)&nbsp;→&nbsp;}} {\color{orange}{QFLCS}} {\color{orange}{&nbsp;→&nbsp; Out(}}{ {\color{red}{[\ QInspire\ ,\ IBMQ\ ]\ }}  QDF\ Circuit\ Data\ }{\color{orange}{)&nbsp;→&nbsp; In(}}{\color{green}{QFLCC}}{\color{orange}{)&nbsp;→&nbsp; Out(↴)}}$|
-|<kbd> ![QDF_Circuit_Sim and Dataset Analysis](./QDF_circuit_screenshot.jpg) </kbd>|
-|${\color{red}{[\ QInspire\ ,\ IBMQ\ ]\ }} QDF\ Circuit\ Simulation\ and\ Dataset\ Analysis\ by\ QFLCS\ and\ QFLCC\$|
+
+| ![QInspire QDF_Circuit Experiment](/QFLCS/QI_Exp_03.png) |
+| :--: | 
+| *QInspire QDF Circuit Experiment* |
+| ↕&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↕ |
+| ![QInspire QDF_Circuit_Experiment Results](/QFLCS/QI_Exp_03_H.png) |
+| *QInspire QDF Circuit Experiment Results* |
+| ![IBM QDF_Circuit_Experiment](/QFLCS/root/lab/sim/QFLCC%20classifiers/QDFCircuit_2023.png) |
+| *IBM QDF Circuit Experiment* |
+| ${\color{orange}{In(}} {\color{red}{[\ QInspire\ ,\ IBMQ\ ]\ } }QDF\ Circuit\ {\color{orange}{)&nbsp;→&nbsp;}} {\color{orange}{QFLCS}} {\color{orange}{&nbsp;→&nbsp; Out(}}{ {\color{red}{[\ QInspire\ ,\ IBMQ\ ]\ }}  QDF\ Circuit\ Data\ }{\color{orange}{)&nbsp;→&nbsp; In(}}{\color{green}{QFLCC}}{\color{orange}{)&nbsp;→&nbsp; Out(↴)}}$ |
+| ![QDF_Circuit_Sim and Dataset Analysis](/QFLCS/QDF_circuit_screenshot.jpg) |
+| ${\color{red}{[\ QInspire\ ,\ IBMQ\ ]\ }} QDF\ Circuit\ Simulation\ and\ Dataset\ Analysis\ by\ QFLCS\ and\ QFLCC\$ |
+
 
 
 
