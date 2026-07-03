@@ -3,53 +3,26 @@
 <head>
   <!-- Keep all your existing head elements, links, and meta tags exactly as they are -->
 
-<style>
-  /* 1. SCREEN VIEW (Dark theme) */
-  :root {
-    color-scheme: dark;
-  }
-  
-  /* Selectively target backgrounds without touching block dimensions */
-  html, body, #main_content_wrap, .site-outer, .site-inner, .wrapper {
-    background-color: #000000 !important;
-    background-image: none !important;
-  }
-  
-  /* Apply screen text colors strictly to text nodes without overriding tag layouts */
-  h1, h2, h3, h4, h5, h6, p, li, span, code, a {
-    color: #ffffff !important;
-  }
+  <style>
+    /* Turn the entire page black and text white instantly without touching layout, fonts, or image metrics */
+    html {
+      background-color: #000000 !important;
+      filter: invert(1) hue-rotate(180deg) !important;
+    }
 
-  /* Explicitly protect your theme's native image scaling layout boundaries */
-  img, svg, picture {
-    max-width: 100% !important;
-    height: auto !important;
-    width: auto; /* Fallback to natural/theme defined width dimensions */
-  }
+    /* Keep images and SVGs normal color so they don't look inverted/corrupted */
+    img, svg, picture, video {
+      filter: invert(1) hue-rotate(180deg) !important;
+    }
 
-  /* 2. PRINT VIEW (Flipped colors) */
-  @media print {
-    :root {
-      color-scheme: light;
+    /* Print settings: strip the filter so it returns to its natural white background/black text */
+    @media print {
+      html, img, svg, picture, video {
+        filter: none !important;
+        background-color: #ffffff !important;
+      }
     }
-    html, body, #main_content_wrap, .site-outer, .site-inner, .wrapper {
-      background-color: #ffffff !important;
-      background-image: none !important;
-    }
-    h1, h2, h3, h4, h5, h6, p, li, span, code, a {
-      color: #000000 !important;
-    }
-    img, svg, picture {
-      max-width: 100% !important;
-      height: auto !important;
-      page-break-inside: avoid; /* Prevents images from awkwardly splitting in half during print */
-    }
-    * {
-      -webkit-print-color-adjust: exact !important;
-      print-color-adjust: exact !important;
-    }
-  }
-</style>
+  </style>
 
 </head>
 <body>
@@ -59,3 +32,4 @@
 
 </body>
 </html>
+
