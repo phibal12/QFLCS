@@ -8,61 +8,74 @@
   {% if site.head %}{{ site.head }}{% endif %}
 
   <style>
-    /* 1. SCREEN VIEW (Dark theme) */
+  /* 1. SCREEN VIEW (Dark theme setup) */
+  :root {
+    color-scheme: dark;
+  }
+  
+  html, body {
+    background-color: #0d1117 !important;
+    color: #c9d1d9 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+  }
+
+  .markdown-body, #main_content_wrap, .wrapper, .container-lg {
+    background-color: #0d1117 !important;
+    color: #c9d1d9 !important;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, li, span, code, a {
+    color: #f0f6fc !important;
+  }
+
+  /* 2. SPECIFIC LAYOUT ALIGNMENTS */
+  /* Keeps all normal content rows, badges, and copyrights left-aligned */
+  div.content-wrapper {
+    max-width: 1012px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left !important;
+  }
+
+  /* Forces images INSIDE tables/kbd matrices to center nicely */
+  table img, td img, kbd img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0 auto !important; /* Centers image assets specifically inside their cells */
+  }
+
+  /* Keeps standard document badges or inline graphics left-aligned */
+  p img, p a img {
+    display: inline-block !important;
+    margin: 0 !important;
+  }
+
+  /* 3. PRINT LAYER (Flipped configurations) */
+  @media print {
     :root {
-      color-scheme: dark;
+      color-scheme: light;
     }
-    
-    /* Fallback framework font declaration to prevent Times New Roman if your theme doesn't fire */
-    html, body {
-      background-color: #0d1117 !important;
-      color: #c9d1d9 !important;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji" !important;
+    html, body, .markdown-body, #main_content_wrap, .wrapper, .container-lg {
+      background-color: #ffffff !important;
+      background-image: none !important;
+      color: #000000 !important;
     }
-
-    .markdown-body, #main_content_wrap, .wrapper, .container-lg {
-      background-color: #0d1117 !important;
-      color: #c9d1d9 !important;
-    }
-
     h1, h2, h3, h4, h5, h6, p, li, span, code, a {
-      color: #f0f6fc !important;
+      color: #000000 !important;
     }
-
-    /* 2. IMAGE BOUNDARIES & CENTERING */
-    /* Resizes images safely and explicitly centers them on the page view layout */
-    img, svg, picture {
+    table img, td img, kbd img {
       max-width: 100% !important;
       height: auto !important;
-      display: block !important;
-      margin-left: auto !important;
-      margin-right: auto !important;
+      page-break-inside: avoid;
     }
+    * {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+  }
+</style>
 
-    /* 3. PRINT VIEW (Flipped colors) */
-    @media print {
-      :root {
-        color-scheme: light;
-      }
-      html, body, .markdown-body, #main_content_wrap, .wrapper, .container-lg {
-        background-color: #ffffff !important;
-        background-image: none !important;
-        color: #000000 !important;
-      }
-      h1, h2, h3, h4, h5, h6, p, li, span, code, a {
-        color: #000000 !important;
-      }
-      img, svg, picture {
-        max-width: 100% !important;
-        height: auto !important;
-        page-break-inside: avoid;
-      }
-      * {
-        -webkit-print-color-adjust: exact !important;
-        print-color-adjust: exact !important;
-      }
-    }
-  </style>
 </head>
 <body>
 
