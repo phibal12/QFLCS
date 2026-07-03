@@ -4,22 +4,56 @@
   <!-- Keep all your existing head elements, links, and meta tags exactly as they are -->
 
   <style>
-    /* Turn the entire page black and text white instantly without touching layout, fonts, or image metrics */
-    html {
-      background-color: #000000 !important;
-      filter: invert(1) hue-rotate(180deg) !important;
+    /* 1. FORCE SYSTEM CANVAS TO BLACK FOR DIGITAL VIEWING */
+    :root {
+      color-scheme: dark;
+    }
+    
+    html, body {
+      background-color: #0d1117 !important; /* Authentic GitHub Dark mode color */
+      color: #c9d1d9 !important;
     }
 
-    /* Keep images and SVGs normal color so they don't look inverted/corrupted */
+    /* 2. RE-ESTABLISH SAFE IMAGE CONTAINMENT */
+    /* This overrides the huge image bug, forcing them to match the page text width */
     img, svg, picture, video {
-      filter: invert(1) hue-rotate(180deg) !important;
+      max-width: 100% !important;
+      height: auto !important;
+      display: inline-block;
     }
 
-    /* Print settings: strip the filter so it returns to its natural white background/black text */
+    /* Keep markdown layout wrappers dark */
+    .markdown-body, #main_content_wrap, .wrapper, .container-lg {
+      background-color: #0d1117 !important;
+      color: #c9d1d9 !important;
+    }
+
+    /* Safely force standard text headings to stay light grey/white on screen */
+    h1, h2, h3, h4, h5, h6, p, li, span, code, a {
+      color: #f0f6fc !important;
+    }
+
+    /* 3. DYNAMIC PRINT ENVIRONMENT INTERFACES */
     @media print {
-      html, img, svg, picture, video {
-        filter: none !important;
+      :root {
+        color-scheme: light;
+      }
+      html, body, .markdown-body, #main_content_wrap, .wrapper, .container-lg {
         background-color: #ffffff !important;
+        background-image: none !important;
+        color: #000000 !important;
+      }
+      h1, h2, h3, h4, h5, h6, p, li, span, code, a {
+        color: #000000 !important;
+      }
+      img, svg, picture {
+        max-width: 100% !important;
+        height: auto !important;
+        page-break-inside: avoid; /* Keeps layout images from snapping awkwardly across printed page splits */
+      }
+      * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
       }
     }
   </style>
@@ -32,4 +66,3 @@
 
 </body>
 </html>
-
