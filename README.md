@@ -52,7 +52,7 @@ This repository's file structure is a sample mirror of the Mendeley repository f
 * QFLCA project's code without the documentation (website) and demo video files can be found under the <code></code/root/lab/sim/QFLCC classifiers></code> directory in <code></code/root/lab/sim/QFLCC classifiers/docs></code> and <code></code/root/lab/sim/QFLCC classifiers/site></code> folders at [https://doi.org/10.24433/CO.9905505.v2](https://doi.org/10.24433/CO.9905505.v2) or [Code Ocean](https://doi.org/10.24433/CO.9905505.v2).
 * The main file is <code></code/root/lab/sim/QFLCC classifiers/QAI-LCode_QFLCC></code> which imports and executes the <code></code/root/lab/sim/QFLCC classifiers/QDF-LCode_IBMQ-2024-codable></code> or <code>QDF-LCode_IBMQ-2024</code> code for the simulation under Win OS or Linux OS.
 
-|<kbd> ![QInspire QDF_Circuit Experiment](/QFLCS/QI_Exp_03.png) </kbd>|
+|<kbd> ![QInspire QDF_Circuit Experiment](/QI_Exp_03.png) </kbd>|
 |:--:| 
 |*QInspire QDF Circuit Experiment*|
 |&#8597;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8597;|
