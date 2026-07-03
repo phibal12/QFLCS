@@ -52,17 +52,19 @@ This repository's file structure is a sample mirror of the Mendeley repository f
 * QFLCA project's code without the documentation (website) and demo video files can be found under the <code></code/root/lab/sim/QFLCC classifiers></code> directory in <code></code/root/lab/sim/QFLCC classifiers/docs></code> and <code></code/root/lab/sim/QFLCC classifiers/site></code> folders at [https://doi.org/10.24433/CO.9905505.v2](https://doi.org/10.24433/CO.9905505.v2) or [Code Ocean](https://doi.org/10.24433/CO.9905505.v2).
 * The main file is <code></code/root/lab/sim/QFLCC classifiers/QAI-LCode_QFLCC></code> which imports and executes the <code></code/root/lab/sim/QFLCC classifiers/QDF-LCode_IBMQ-2024-codable></code> or <code>QDF-LCode_IBMQ-2024</code> code for the simulation under Win OS or Linux OS.
 
-|<kbd> ![QInspire QDF_Circuit Experiment](/QI_Exp_03.png) </kbd>|
-|:--:| 
-|*QInspire QDF Circuit Experiment*|
-|&#8597;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8597;|
-|<kbd> ![QInspire QDF_Circuit_Experiment Results](/QI_Exp_03_H.png) </kbd>|
-|*QInspire QDF Circuit Experiment Results*|
-|<kbd> ![IBM QDF_Circuit_Experiment](/root/lab/sim/QFLCC%20classifiers/QDFCircuit_2023.png) </kbd>|
-|*IBM QDF Circuit Experiment*|
-|${\color{orange}{In(}} {\color{red}{[\ QInspire\ ,\ IBMQ\ ]\ } }QDF\ Circuit\ {\color{orange}{)&nbsp;&#8594;&nbsp;}} {\color{orange}{QFLCS}} {\color{orange}{&nbsp;&#8594;&nbsp; Out(}}{ {\color{red}{[\ QInspire\ ,\ IBMQ\ ]\ }}  QDF\ Circuit\ Data\ }{\color{orange}{)&nbsp;&#8594;&nbsp; In(}}{\color{green}{QFLCC}}{\color{orange}{)&nbsp;&#8594;&nbsp; Out(&#8628;)}}$|
-|<kbd> ![QDF_Circuit_Sim and Dataset Analysis](QDF_circuit_screenshot.jpg) </kbd>|
-|${\color{red}{[\ QInspire\ ,\ IBMQ\ ]\ }} QDF\ Circuit\ Simulation\ and\ Dataset\ Analysis\ by\ QFLCS\ and\ QFLCC\$|
+
+| <kbd> ![QInspire QDF_Circuit Experiment]({{ site.baseurl }}/QI_Exp_03.png) </kbd> |
+| :--: | 
+| *QInspire QDF Circuit Experiment* |
+| ↕&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↕ |
+| <kbd> ![QInspire QDF_Circuit_Experiment Results]({{ site.baseurl }}/QI_Exp_03_H.png) </kbd> |
+| *QInspire QDF Circuit Experiment Results* |
+| <kbd> ![IBM QDF_Circuit_Experiment]({{ site.baseurl }}/root/lab/sim/QFLCC%20classifiers/QDFCircuit_2023.png) </kbd> |
+| *IBM QDF Circuit Experiment* |
+| ${\color{orange}{In(}} {\color{red}{[\ QInspire\ ,\ IBMQ\ ]\ } }QDF\ Circuit\ {\color{orange}{)&nbsp;→&nbsp;}} {\color{orange}{QFLCS}} {\color{orange}{&nbsp;→&nbsp; Out(}}{ {\color{red}{[\ QInspire\ ,\ IBMQ\ ]\ }}  QDF\ Circuit\ Data\ }{\color{orange}{)&nbsp;→&nbsp; In(}}{\color{green}{QFLCC}}{\color{orange}{)&nbsp;→&nbsp; Out(↴)}}$ |
+| <kbd> ![QDF_Circuit_Sim and Dataset Analysis]({{ site.baseurl }}/QDF_circuit_screenshot.jpg) </kbd> |
+| ${\color{red}{[\ QInspire\ ,\ IBMQ\ ]\ }} QDF\ Circuit\ Simulation\ and\ Dataset\ Analysis\ by\ QFLCS\ and\ QFLCC\ $ |
+
 
 * We recommend downloading the entire <code><root/...></code> directory according to the folder structure and run <code>[QAI-LCode_QFLCC.py]</code> in VSC with python latest packages installed for Windows OS (the QDF game is developed for Windows OS, yet parts of the code for sound and display can be rewritten for Linux OS), e.g. <code>"winsound"</code> package as a compatible option. Other packages are needed to be installed or code rewritten for <code>"sound"</code> and <code>"display"</code> compatibility under other operating systems.
 * The <code>[QAI-LCode_QFLCC.py]</code> file has a Pygame GUI and other packages suited for local machine runs, rather than running this file on the [Code Ocean](https://doi.org/10.24433/CO.9905505.v2) platform which could take hours to compile and run a compatible program/game with packages. 
