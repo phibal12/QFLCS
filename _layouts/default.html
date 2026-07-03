@@ -32,18 +32,36 @@
       max-width: 1012px;
       margin: 0 auto;
       padding: 20px;
-      text-align: left !important; /* Forces badges and copyrights to stay left-aligned */
+      text-align: left !important; /* Badges and copyrights stay left aligned */
     }
 
-    /* Target ONLY layout items housed inside structured matrix wrappers */
-    table img, td img, kbd img {
+    /* Target table layouts explicitly */
+    table {
+      margin: 20px 0;
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    td {
+      text-align: center !important; /* Centers contents inside table matrix cells */
+      padding: 12px;
+    }
+
+    /* Mimic the <kbd> block styling cleanly through modern CSS wrappers */
+    td img {
       max-width: 100% !important;
       height: auto !important;
       display: block !important;
-      margin: 0 auto !important; /* Explicit centering inside table blocks */
+      margin: 0 auto !important; 
+      background-color: #21262d;
+      border: 1px solid #30363d;
+      border-bottom-color: #21262d;
+      border-radius: 6px;
+      box-shadow: inset 0 -1px 0 #21262d;
+      padding: 8px;
     }
 
-    /* Bypasses general line spacing for normal paragraph inline decorations */
+    /* Keeps standard document top badges left-aligned */
     p img, p a img, .badge img {
       display: inline-block !important;
       margin: 0 !important;
@@ -62,7 +80,12 @@
       h1, h2, h3, h4, h5, h6, p, li, span, code, a {
         color: #000000 !important;
       }
-      table img, td img, kbd img {
+      td img {
+        background-color: #ffffff !important;
+        border: 1px solid #cccccc !important;
+        box-shadow: none !important;
+      }
+      table img, td img {
         max-width: 100% !important;
         height: auto !important;
         page-break-inside: avoid;
