@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- Keep all your existing head elements, links, and meta tags exactly as they are -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- This line tells Jekyll to pull in your theme's native fonts and layout scripts -->
+  {% if site.head %}{{ site.head }}{% endif %}
 
   <style>
-    /* 1. FORCE SYSTEM CANVAS TO BLACK FOR DIGITAL VIEWING */
+    /* 1. SCREEN VIEW (Dark theme) */
     :root {
       color-scheme: dark;
     }
     
+    /* Fallback framework font declaration to prevent Times New Roman if your theme doesn't fire */
     html, body {
-      background-color: #0d1117 !important; /* Authentic GitHub Dark mode color */
+      background-color: #0d1117 !important;
       color: #c9d1d9 !important;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji" !important;
     }
 
-    /* 2. RE-ESTABLISH SAFE IMAGE CONTAINMENT */
-    /* This overrides the huge image bug, forcing them to match the page text width */
-    img, svg, picture, video {
-      max-width: 100% !important;
-      height: auto !important;
-      display: inline-block;
-    }
-
-    /* Keep markdown layout wrappers dark */
     .markdown-body, #main_content_wrap, .wrapper, .container-lg {
       background-color: #0d1117 !important;
       color: #c9d1d9 !important;
     }
 
-    /* Safely force standard text headings to stay light grey/white on screen */
     h1, h2, h3, h4, h5, h6, p, li, span, code, a {
       color: #f0f6fc !important;
     }
 
-    /* 3. DYNAMIC PRINT ENVIRONMENT INTERFACES */
+    /* 2. IMAGE BOUNDARIES & CENTERING */
+    /* Resizes images safely and explicitly centers them on the page view layout */
+    img, svg, picture {
+      max-width: 100% !important;
+      height: auto !important;
+      display: block !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    /* 3. PRINT VIEW (Flipped colors) */
     @media print {
       :root {
         color-scheme: light;
@@ -49,7 +55,7 @@
       img, svg, picture {
         max-width: 100% !important;
         height: auto !important;
-        page-break-inside: avoid; /* Keeps layout images from snapping awkwardly across printed page splits */
+        page-break-inside: avoid;
       }
       * {
         -webkit-print-color-adjust: exact !important;
@@ -57,12 +63,13 @@
       }
     }
   </style>
-
 </head>
 <body>
 
-  <!-- This is where your Jekyll or template engine content gets injected -->
-  {{ content }} 
+  <!-- Centers everything neatly inside the main viewport -->
+  <div style="max-width: 1012px; margin: 0 auto; padding: 20px;">
+    {{ content }} 
+  </div>
 
 </body>
 </html>
