@@ -53,16 +53,16 @@ This repository's file structure is a sample mirror of the Mendeley repository f
 * The main file is <code></code/root/lab/sim/QFLCC classifiers/QAI-LCode_QFLCC></code> which imports and executes the <code></code/root/lab/sim/QFLCC classifiers/QDF-LCode_IBMQ-2024-codable></code> or <code>QDF-LCode_IBMQ-2024</code> code for the simulation under Win OS or Linux OS.
 
 
-| <kbd> <img src="./QFLCS/QI_Exp_03.png" alt="QInspire QDF_Circuit Experiment" width="100%" /> </kbd> |
+| <kbd> <img src="/QI_Exp_03.png" alt="QInspire QDF_Circuit Experiment" width="100%" /> </kbd> |
 | :--: | 
 | *QInspire QDF Circuit Experiment* |
 | ↕&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↕ |
-| <kbd> <img src="./QFLCS/QI_Exp_03_H.png" alt="QInspire QDF_Circuit_Experiment Results" width="100%" /> </kbd> |
+| <kbd> <img src="/QI_Exp_03_H.png" alt="QInspire QDF_Circuit_Experiment Results" width="100%" /> </kbd> |
 | *QInspire QDF Circuit Experiment Results* |
-| <kbd> <img src="./QFLCS/root/lab/sim/QFLCC%20classifiers/QDFCircuit_2023.png" alt="IBM QDF_Circuit_Experiment" width="100%" /> </kbd> |
+| <kbd> <img src="./root/lab/sim/QFLCC%20classifiers/QDFCircuit_2023.png" alt="IBM QDF_Circuit_Experiment" width="100%" /> </kbd> |
 | *IBM QDF Circuit Experiment* |
 | ${\color{orange}{In(}} {\color{red}{[\ QInspire\ ,\ IBMQ\ ]\ } }QDF\ Circuit\ {\color{orange}{)&nbsp;→&nbsp;}} {\color{orange}{QFLCS}} {\color{orange}{&nbsp;→&nbsp; Out(}}{ {\color{red}{[\ QInspire\ ,\ IBMQ\ ]\ }}  QDF\ Circuit\ Data\ }{\color{orange}{)&nbsp;→&nbsp; In(}}{\color{green}{QFLCC}}{\color{orange}{)&nbsp;→&nbsp; Out(↴)}}$ |
-| <kbd> <img src="./QFLCS/QDF_circuit_screenshot.jpg" alt="QDF_Circuit_Sim and Dataset Analysis" width="100%" /> </kbd> |
+| <kbd> <img src="/QDF_circuit_screenshot.jpg" alt="QDF_Circuit_Sim and Dataset Analysis" width="100%" /> </kbd> |
 | ${\color{red}{[\ QInspire\ ,\ IBMQ\ ]\ }} QDF\ Circuit\ Simulation\ and\ Dataset\ Analysis\ by\ QFLCS\ and\ QFLCC\$ |
 
 
