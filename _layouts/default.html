@@ -6,96 +6,101 @@
   
   {% if site.head %}{{ site.head }}{% endif %}
 
-  <style>
-    /* 1. DIGITAL VIEW OVERVIEW */
+ <style>
+  /* 1. DIGITAL VIEW OVERVIEW */
+  :root {
+    color-scheme: dark;
+  }
+  
+  html, body {
+    background-color: #0d1117 !important;
+    color: #c9d1d9 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+  }
+
+  .markdown-body, #main_content_wrap, .wrapper, .container-lg {
+    background-color: #0d1117 !important;
+    color: #c9d1d9 !important;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, li, span, code, a {
+    color: #f0f6fc !important;
+  }
+
+  /* 2. UNIVERSAL IMAGE RESIZER FIX */
+  /* This prevents the Graphical Abstracts later down the page from exploding in size */
+  img, svg, picture, video {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* 3. LAYOUT GRID RESET & POSITIONING CONTROL */
+  div.content-wrapper {
+    max-width: 1012px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left !important;
+  }
+
+  table {
+    margin: 20px 0;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  td {
+    text-align: center !important;
+    padding: 12px;
+  }
+
+  /* The mock <kbd> block styling */
+  td img {
+    display: block !important;
+    margin: 0 auto !important; 
+    background-color: #21262d;
+    border: 1px solid #30363d;
+    border-bottom-color: #21262d;
+    border-radius: 6px;
+    box-shadow: inset 0 -1px 0 #21262d;
+    padding: 8px;
+  }
+
+  /* Keeps standard top row documentation badges left-aligned */
+  p img, p a img, .badge img {
+    display: inline-block !important;
+    margin: 0 !important;
+  }
+
+  /* 4. PRINT SYSTEM INVERSIONS */
+  @media print {
     :root {
-      color-scheme: dark;
+      color-scheme: light;
     }
-    
-    html, body {
-      background-color: #0d1117 !important;
-      color: #c9d1d9 !important;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+    html, body, .markdown-body, #main_content_wrap, .wrapper, .container-lg {
+      background-color: #ffffff !important;
+      background-image: none !important;
+      color: #000000 !important;
     }
-
-    .markdown-body, #main_content_wrap, .wrapper, .container-lg {
-      background-color: #0d1117 !important;
-      color: #c9d1d9 !important;
-    }
-
     h1, h2, h3, h4, h5, h6, p, li, span, code, a {
-      color: #f0f6fc !important;
+      color: #000000 !important;
     }
-
-    /* 2. LAYOUT GRID RESET & POSITIONING CONTROL */
-    div.content-wrapper {
-      max-width: 1012px;
-      margin: 0 auto;
-      padding: 20px;
-      text-align: left !important; /* Badges and copyrights stay left aligned */
-    }
-
-    /* Target table layouts explicitly */
-    table {
-      margin: 20px 0;
-      width: 100%;
-      border-collapse: collapse;
-    }
-
-    td {
-      text-align: center !important; /* Centers contents inside table matrix cells */
-      padding: 12px;
-    }
-
-    /* Mimic the <kbd> block styling cleanly through modern CSS wrappers */
     td img {
+      background-color: #ffffff !important;
+      border: 1px solid #cccccc !important;
+      box-shadow: none !important;
+    }
+    table img, td img, img {
       max-width: 100% !important;
       height: auto !important;
-      display: block !important;
-      margin: 0 auto !important; 
-      background-color: #21262d;
-      border: 1px solid #30363d;
-      border-bottom-color: #21262d;
-      border-radius: 6px;
-      box-shadow: inset 0 -1px 0 #21262d;
-      padding: 8px;
+      page-break-inside: avoid;
     }
+    * {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+  }
+</style>
 
-    /* Keeps standard document top badges left-aligned */
-    p img, p a img, .badge img {
-      display: inline-block !important;
-      margin: 0 !important;
-    }
-
-    /* 3. PRINT SYSTEM INVERSIONS */
-    @media print {
-      :root {
-        color-scheme: light;
-      }
-      html, body, .markdown-body, #main_content_wrap, .wrapper, .container-lg {
-        background-color: #ffffff !important;
-        background-image: none !important;
-        color: #000000 !important;
-      }
-      h1, h2, h3, h4, h5, h6, p, li, span, code, a {
-        color: #000000 !important;
-      }
-      td img {
-        background-color: #ffffff !important;
-        border: 1px solid #cccccc !important;
-        box-shadow: none !important;
-      }
-      table img, td img {
-        max-width: 100% !important;
-        height: auto !important;
-        page-break-inside: avoid;
-      }
-      * {
-        -webkit-print-color-adjust: exact !important;
-        print-color-adjust: exact !important;
-      }
-    }
-  </style>
 </head>
 <body>
 
