@@ -1,49 +1,36 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <!-- Keep all your existing head elements, links, and meta tags exactly as they are -->
+<style>
+  /* Screen styles: Safely change colors using CSS variables without affecting typography or image layouts */
+  :root {
+    color-scheme: dark;
+    --background-color: #000000 !important;
+    --text-color: #ffffff !important;
+    --heading-color: #ffffff !important;
+  }
   
-  <style>
-    /* 1. Target only the root background and primary text during normal screen reading */
+  html, body, .site-outer, .site-inner, #main_content_wrap {
+    background: #000000 !important;
+    color: #ffffff !important;
+  }
+
+  /* Force print inversion ONLY for colors, completely leaving structural CSS alone */
+  @media print {
     :root {
-      color-scheme: dark; /* Signals browser dark-mode defaults without layout destruction */
+      color-scheme: light;
+      --background-color: #ffffff !important;
+      --text-color: #000000 !important;
+      --heading-color: #000000 !important;
     }
-    
-    html, body {
-      background-color: #000000 !important;
-      color: #ffffff !important;
+    html, body, .site-outer, .site-inner, #main_content_wrap {
+      background: #ffffff !important;
+      color: #000000 !important;
     }
-
-    /* Keep generic blocks like headings/paragraphs white on screen, but do NOT touch font-family or sizing */
     h1, h2, h3, h4, h5, h6, p, li, span, code {
-      color: #ffffff !important;
+      color: #000000 !important;
     }
-
-    /* 2. Invert strictly color properties during printing, leaving layout/images untouched */
-    @media print {
-      :root {
-        color-scheme: light;
-      }
-      html, body {
-        background-color: #ffffff !important;
-        color: #000000 !important;
-      }
-      h1, h2, h3, h4, h5, h6, p, li, span, code {
-        color: #000000 !important;
-      }
-      
-      /* Forces modern browsers to respect background visibility adjustments */
-      * {
-        -webkit-print-color-adjust: exact !important;
-        print-color-adjust: exact !important;
-      }
+    /* Prevent browsers from dropping background adjustments during rendering layers */
+    * {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
     }
-  </style>
-</head>
-<body>
-
-  <!-- This is where Jekyll or template engine content gets injected -->
-  {{ content }} 
-
-</body>
-</html>
+  }
+</style>
